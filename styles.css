@@ -1,0 +1,527 @@
+body {
+	margin: 0;
+	font-family: Pompiere, sans-serif;
+	color: #666;
+	background-color: #fff;
+  	font-size: 24px;		  				  	  
+}
+
+h1, h2 {
+	font-weight: normal;
+	color: #fa0;
+}
+
+h2 {
+	font-size: 1.4em;		
+	margin: 0 0 18px 0;
+}
+
+a {
+	color: #666;
+	text-decoration: none;		
+}
+
+p {	
+	color: #666;
+	margin: 0 0 15px 0;
+}
+
+p, li {
+    font-size: 1.1em;
+}
+
+a:hover {
+	border-bottom: 1px solid #fa0;		
+}
+
+.page-container {		
+	width: 1060px;
+	margin: 0 auto;						
+}
+
+.head {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+	
+.clear {
+	clear: both;
+}
+
+.align-right {
+	text-align: right;
+}
+
+/** Navigation **/	
+.nav {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;	
+}
+
+.nav li {
+	float: left;
+	padding: 51px 0;
+	min-width: 140px;
+  	text-align: center;
+  	font-size: 1.2em;
+}
+
+.nav-active {		
+	background: url('images/nav-active.png') no-repeat center;
+}
+
+.logo-container {
+	display: inline-block;
+}
+
+.logo-container a {
+	border: none;
+}
+
+.nav-container {	
+	float: right;	
+}	
+/** Navigation End **/		
+  
+/** Accordion **/
+.accordion {		
+	width: 100%;
+	height: 460px;		
+	background-color: #fff;		
+	overflow: auto;					
+}
+
+.accordion section {
+	position: relative;
+	display: block;
+	float: left;
+	width: 6.0344827586206896551724137931034%;
+	height: 100%;
+	margin-left: 0.17241379310344827586206896551724%;								
+	overflow: hidden;		
+	border-radius: 0 10px 10px 0;		
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	-ms-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+	background: url('images/acc-arrow.png') no-repeat bottom 7px right 7px #eee;		
+}
+
+.accordion section:first-child {
+	margin-left: 0;
+}
+
+.accordion section .image-container {
+	margin: 35px 25px;
+}
+
+.accordion section.acc-open .image-container {
+	overflow: hidden;
+	      
+}
+
+.accordion section h2,
+.accordion section p {
+	display: none;
+	padding: 0 25px;
+	width: 630px;
+}
+
+.accordion section.acc {		
+	cursor: pointer;		
+}
+
+.accordion section.acc {		
+	cursor: pointer;		
+}
+
+.accordion section.acc p a {		
+	border-bottom: 1px solid #fa0;		
+}
+
+.accordion section.acc-open {
+	cursor: default;						
+	border-radius: 0;
+	background-image: none;
+	width: 68.965517241379310344827586206897%;
+}
+
+.accordion section.acc-open h2,
+.accordion section.acc-open p {
+	display: block;			
+}		
+/** Accordion End **/
+
+/** Home page links **/	
+.page-logo {
+	display: table;
+	position: relative;
+	width: 100%;	
+	margin-top: 100px;
+}
+
+.page-logo-image {	
+	display: table-cell;
+	width: 50%;
+	height: 500px;
+}
+
+.page-logo-word {	
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.page-logo-purple {
+	position: absolute;
+	display: table;		
+	top: 0;
+	left: 0;
+	background: url('images/logo-circle-purple.svg') no-repeat;
+	width: 250px;
+	height: 244px;
+	transition: ease-out 0.3s;
+}		
+
+.page-logo-grey {
+    position: absolute;
+    display: table;
+    top: 21px;
+  	left: 259px;
+  	background: url('images/logo-circle-grey.svg') no-repeat;
+	width: 240px;
+	height: 261px;
+	transition: ease-out 0.3s;
+}
+
+.page-logo-light-grey {
+    position: absolute;
+    display: table;
+    top: 235px;
+  	left: 123px;
+  	background: url('images/logo-circle-light-grey.svg') no-repeat;
+	width: 217px;	
+	height: 221px;
+	transition: ease-out 0.3s;
+}
+
+.page-logo-yellow {
+    position: absolute;
+    display: table;
+    top: 286px;
+  	left: 346px;
+  	background: url('images/logo-circle-yellow.svg') no-repeat;
+	width: 125px;
+	height: 117px;		
+}			
+
+.page-logo-purple,	
+.page-logo-grey,
+.page-logo-light-grey,
+.page-logo-yellow {
+	transition: linear 0.3s;
+	background-size: 100%;	
+}	
+
+.page-logo-purple:hover {						
+	transform: scale(1.07) translate(-10px, -10px);				
+}
+
+.page-logo-grey:hover {						
+	transform: scale(1.07) translate(10px, -10px);		
+}
+
+.page-logo-light-grey:hover {						
+	transform: scale(1.07) translate(-10px, 10px);		
+}
+
+.page-logo-yellow:hover {						
+	transform: scale(1.07) translate(10px, 10px);		
+}	
+
+.page-links {		
+	font-size: 2.2em;	  		
+}
+
+.page-links a {
+	display: table-cell;
+	position: relative;
+	border: none;		
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+		
+}
+
+.page-link-small {
+	font-size: 0.73em;
+}
+
+a.page-link-dark {
+	color: #666;
+}
+/** Home page links **/
+
+/** Text **/
+.info-container {	   
+   display: table;
+   width: 100%;     	  
+}
+
+.info-text {
+	display: table-cell;
+	vertical-align: top;
+    background: #eee;    
+    padding: 35px 25px;    
+}
+
+.info-image {	
+    display: table-cell;	    
+    background: #eee;
+	border-left: 2px solid #fff;
+}
+
+.info-image-landscape,
+.info-image-landscape-small {
+	display: none;
+}
+/** Text End **/
+
+/** Service **/
+.service-container {
+    display: table;
+	width: 100%;
+}		
+
+.service-text {
+	display: table-cell;		
+	background: #eee;	    
+    padding: 35px 25px;
+    border-radius: 0 10px 10px 0;	
+}
+
+.service-small {
+	width: 30%;	
+	border-right: 2px solid #fff;
+}
+
+.service-large {
+	width: 70%;
+}
+	
+.service-text ul {
+	margin: 0;
+	list-style-type: lower-roman;
+}
+
+.service-text li {
+	padding: 3px 0;
+}
+/** Service End **/
+
+/** Contact **/
+.contact-container {	
+	text-align: center;
+
+}
+
+.contact-text {	
+	display: inline-block;
+	background: #eee;
+	padding: 35px 25px;	
+	text-align: left;
+	border-radius: 10px;
+}
+
+/** Contact End **/
+
+/** Footer **/
+.foot-container {		
+	position: relative;	
+	top: 70px;
+	width: 100%;
+	font-size: 0.8em;
+	text-align: center;								
+}
+
+.foot-container p {
+	margin: 0;
+	padding: 5px 0 15px 0;
+}
+
+.foot {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 36px;							
+}
+
+.foot li {
+	display: inline-block				
+}
+
+.foot li:after {
+	content: '|';		
+}
+
+.foot li:last-child:after {
+	content: '';
+}
+
+.foot a {
+	margin: 0 7px;
+}
+/** Footer End **/
+
+/** Madia Queries **/
+@media (max-width: 1060px) {
+	.page-container {		
+		width: 96%;
+		padding: 2%;	
+	}	
+	
+	.page-logo {
+		margin: 0;		
+	}
+	
+	.page-logo-image,
+	.page-logo-word {
+		display: block;
+		text-align: center;		
+	}		
+	
+	.page-logo-word {
+		padding: 0;
+	}			
+	
+	.logo-container {		
+		padding-left: 10px;
+	}
+	
+	.nav-container {
+		margin-right: 10px;
+	}
+	
+	.accordion section h2,
+	.accordion section p {
+		width: 520px;
+	}	
+}
+
+@media (max-width: 850px) {
+	.page-logo {
+		display: block;		
+	}	
+	
+	.head {
+		margin-bottom: 20px;
+	}		
+
+	.logo-container {
+		display: block;
+		text-align: center;
+		margin-bottom: 15px;
+		padding-left: 0;		
+	}
+
+	.nav-container {
+		padding-top: 0;
+		margin-right: 0;
+		float: none;
+	}
+	
+	.nav li {
+		float: none;
+		padding: 10px;
+	}
+	
+	.accordion {
+		height: auto;
+	}
+	
+	.accordion section {
+		width: 100%;
+		height: auto;		
+		float: none;
+		margin-left: 0;
+		margin-bottom: 2px;
+		cursor: default;	    
+	    background-image: none;
+		border-radius: 0 0 10px 10px;	    
+	}
+	
+	.accordion section.acc-open {
+		width: 100%;
+		cursor: default;
+		border-radius: 0 0 10px 10px;			    
+	}
+	
+	.accordion section h2,
+	.accordion section p {
+		display: block;
+		width: auto;
+	}
+	
+	.accordion section p:last-child {
+		margin-bottom: 30px
+	}			
+   	
+	.accordion section .image-container {
+		overflow: hidden;
+	}
+	
+	.info-container {
+	    display: block;
+	    width: 100%;
+	    overflow: hidden;
+    }
+	
+	.info-image-portrait {
+		display: none;
+	}
+	
+    .info-image-landscape {
+		display: inline-block;		
+	}
+	
+	.info-text,
+	.info-image {
+		height: auto;
+		float: left;
+	}
+	
+	.info-image {
+		border-left: none;
+		border-top: 2px solid #fff;
+	}			
+}
+
+@media (max-width: 600px) {
+	 .info-image img{
+	 	max-width: 100%;
+	 }
+	 
+	 .info-image-landscape {
+		display: none;		
+	}
+	 
+	 .info-image-landscape-small {
+		display: inline-block;		
+	}
+	
+	.service-text {
+		display: block;
+		width: auto;
+		border-radius: 0 0 10px 10px;
+	}
+	
+	.service-small {	
+		border-right: none;
+		border-bottom: 2px solid #fff;
+	}
+}
+/** Madia Queries End **/
