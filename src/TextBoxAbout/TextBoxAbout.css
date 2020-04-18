@@ -1,0 +1,22 @@
+.info-container {	   
+	display: table;
+	width: 100%;     	  
+ }
+ 
+ .info-text {
+	 display: table-cell;
+	 vertical-align: top;
+	 background: #eee;    
+	 padding: 35px 25px;    
+ }
+ 
+ .info-image {	
+	 display: table-cell;	    
+	 background: #eee;
+	 border-left: 2px solid #fff;
+ }
+ 
+ .info-image-landscape,
+ .info-image-landscape-small {
+	 display: none;
+ }

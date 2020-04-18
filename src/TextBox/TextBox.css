@@ -1,0 +1,12 @@
+.contact-container {	
+	text-align: center;
+
+}
+
+.contact-text {	
+	display: inline-block;
+	background: #eee;
+	padding: 35px 25px;	
+	text-align: left;
+	border-radius: 10px;
+}

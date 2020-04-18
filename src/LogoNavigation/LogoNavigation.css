@@ -1,0 +1,108 @@
+.page-logo {
+	display: table;
+	position: relative;
+	width: 100%;	
+	margin-top: 100px;
+}
+
+.page-logo-image {	
+	display: table-cell;
+	width: 50%;
+	height: 500px;
+}
+
+.page-logo-word {	
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.page-logo-purple {
+	position: absolute;
+	display: table;		
+	top: 0;
+	left: 0;
+	background: url('./images/CirclePurple.svg') no-repeat;
+	width: 250px;
+	height: 244px;
+	transition: ease-out 0.3s;
+}		
+
+.page-logo-grey {
+    position: absolute;
+    display: table;
+    top: 21px;
+  	left: 259px;
+  	background: url('./images/CircleGrey.svg') no-repeat;
+	width: 240px;
+	height: 261px;
+	transition: ease-out 0.3s;
+}
+
+.page-logo-light-grey {
+    position: absolute;
+    display: table;
+    top: 235px;
+  	left: 123px;
+  	background: url('./images/CircleLightGrey.svg') no-repeat;
+	width: 217px;	
+	height: 221px;
+	transition: ease-out 0.3s;
+}
+
+.page-logo-yellow {
+    position: absolute;
+    display: table;
+    top: 286px;
+  	left: 346px;
+  	background: url('./images/CircleYellow.svg') no-repeat;
+	width: 125px;
+	height: 117px;		
+}			
+
+.page-logo-purple,	
+.page-logo-grey,
+.page-logo-light-grey,
+.page-logo-yellow {
+	transition: linear 0.3s;
+	background-size: 100%;	
+}	
+
+.page-logo-purple:hover {						
+	transform: scale(1.07) translate(-10px, -10px);				
+}
+
+.page-logo-grey:hover {						
+	transform: scale(1.07) translate(10px, -10px);		
+}
+
+.page-logo-light-grey:hover {						
+	transform: scale(1.07) translate(-10px, 10px);		
+}
+
+.page-logo-yellow:hover {						
+	transform: scale(1.07) translate(10px, 10px);		
+}	
+
+.page-links {		
+	font-size: 2.2em;	  		
+}
+
+.page-links a {
+	display: table-cell;
+	position: relative;
+	border: none;		
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+		
+}
+
+.page-link-small {
+	font-size: 0.73em;
+}
+
+a.page-link-dark {
+	color: #666;
+}

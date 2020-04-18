@@ -1,0 +1,36 @@
+.foot-container {		
+	position: relative;	
+	top: 70px;
+	width: 100%;
+	font-size: 0.8em;
+	text-align: center;								
+}
+
+.foot-container p {
+	margin: 0;
+	padding: 5px 0 15px 0;
+}
+
+.foot {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 36px;							
+}
+
+.foot li {
+	display: inline-block				
+}
+
+.foot li:after {
+	content: '|';		
+}
+
+.foot li:last-child:after {
+	content: '';
+}
+
+.foot a {
+	margin: 0 7px;
+}

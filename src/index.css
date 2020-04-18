@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	font-family: Pompiere, sans-serif;
+	color: #666;
+	background-color: #fff;
+  	font-size: 24px;		  				  	  
+}
+
+h1, h2 {
+	font-weight: normal;
+	color: #fa0;
+}
+
+h2 {
+	font-size: 1.4em;		
+	margin: 0 0 18px 0;
+}
+
+a {
+	color: #666;
+	text-decoration: none;		
+}
+
+p {	
+	color: #666;
+	margin: 0 0 15px 0;
+}
+
+p, li {
+    font-size: 1.1em;
+}
+
+.page-container {		
+	width: 1060px;
+	margin: 0 auto;						
+}
+
+.head {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+	
+.clear {
+	clear: both;
+}
+
+.align-right {
+	text-align: right;
+}
