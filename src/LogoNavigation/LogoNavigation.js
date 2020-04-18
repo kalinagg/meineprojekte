@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
 import './LogoNavigation.css';
 import logoText from './images/LogoText.svg';
-// import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 export default class LogoNavigation extends Component {
-
     render() {
         return (					 
 			<div className="page-logo">				
 				<div className="page-logo-image page-links">					
 					<div className="page-logo-purple">						
-						<a href="projects.php">Projekte</a>
+						<Link to="/projects">Projekte</Link>
 					</div>
 					<div className="page-logo-grey">
-						<a href="service.php">Service</a>
+						<Link to="/service">Service</Link>
 					</div>					
 					<div className="page-logo-light-grey">
-						<a href="about-me.php" className="page-link-dark">Über mich</a>
+						<Link to="/aboutme" className="page-link-dark">Über mich</Link>
 					</div>
 					<div className="page-logo-yellow">
-						<a href="contact.php" className="page-link-small">Kontakt</a>
+						<Link to="/contact" className="page-link-small">Kontakt</Link>
 					</div>	
 				</div>
 				<div className="page-logo-word">

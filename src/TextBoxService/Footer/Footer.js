@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
     render() {
         return (
             <div className="foot-container">
                 <ul className="foot">
-                    <li><a href="index.php">Startseite</a></li>
-                    <li><a href="projects.php">Projekte</a></li>
-                    <li><a href="service.php">Service</a></li>
-                    <li><a href="about-me.php">Über mich</a></li>
-                    <li><a href="contact.php">Kontakt</a></li>
-                    <li><a href="contact.php">Impressum</a></li>
+                    <li><Link to="/">Startseite</Link></li>
+                    <li><Link to="projects">Projekte</Link></li>
+                    <li><Link to="service">Service</Link></li>
+                    <li><Link to="aboutme">Über mich</Link></li>
+                    <li><Link to="contact">Kontakt</Link></li>
+                    <li><Link to="contact">Impressum</Link></li>
                 </ul>
                 <p className="clear">&copy; Copyright 2020 Kalina Georgieva. Alle Rechte vorbehalten.</p>
             </div>
