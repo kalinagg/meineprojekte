@@ -46,10 +46,6 @@
 	cursor: pointer;		
 }
 
-.accordion section.acc {		
-	cursor: pointer;		
-}
-
 .accordion section.acc p a {		
 	border-bottom: 1px solid #fa0;		
 }
