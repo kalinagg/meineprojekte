@@ -19,14 +19,6 @@ export default class Accordion extends Component {
         });
     }
 
-    isFirst(index) {
-        return index === 0;
-    }
-
-    active(e, id) {
-        return e.currentTarget === id ? 'acc acc-open' : 'acc';
-    }
-
     render() {
         return (
             <article className="accordion">
