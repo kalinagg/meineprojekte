@@ -10,3 +10,7 @@
 	text-align: left;
 	border-radius: 10px;
 }
+
+.contact-text a:hover{
+	border-bottom: 1px solid #fa0;		
+}

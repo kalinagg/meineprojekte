@@ -61,3 +61,47 @@
 .accordion section.acc-open p {
 	display: block;			
 }
+
+@media (max-width: 1060px) {
+	.accordion section h2,
+	.accordion section p {
+		width: 520px;
+	}
+}
+
+@media (max-width: 850px) {
+	.accordion {
+		height: auto;
+	}
+	
+	.accordion section {
+		width: 100%;
+		height: auto;		
+		float: none;
+		margin-left: 0;
+		margin-bottom: 2px;
+		cursor: default;	    
+		background-image: none;
+		border-radius: 0 0 10px 10px;	    
+	}
+	
+	.accordion section.acc-open {
+		width: 100%;
+		cursor: default;
+		border-radius: 0 0 10px 10px;			    
+	}
+	
+	.accordion section h2,
+	.accordion section p {
+		display: block;
+		width: auto;
+	}
+	
+	.accordion section p:last-child {
+		margin-bottom: 30px
+	}			
+	   
+	.accordion section .image-container {
+		overflow: hidden;
+	}
+}

@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 
 export default class Navigation extends Component {
     render() {
         return (
             <div className="nav-container">
-                <ul className="nav">			
-                    <li className="nav-active">
-                        <Link to="/projects">Projekte</Link>		  
-                    </li>
-                    <li className="nav-active">
-                        <Link to="/service">Service</Link>			  
-                    </li>
-                    <li className="nav-active">
-                        <Link to="/aboutme">Über mich</Link>			  
-                    </li>
-                    <li className="nav-active">
-                        <Link to="/contact">Kontakt</Link>			  
-                    </li>
-                </ul>
+                <NavLink to="/projects" activeClassName='active'>
+                    <span>Projekte</span>
+                </NavLink>		  
+                <NavLink to="/service" activeClassName='active'>
+                    <span>Service</span>
+                </NavLink>			  
+                <NavLink to="/aboutme" activeClassName='active'>
+                    <span>Über mich</span>
+                </NavLink>			  
+                <NavLink to="/contact" activeClassName='active'>
+                    <span>Kontakt</span>
+                </NavLink>                
             </div>
         )
     }

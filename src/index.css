@@ -34,11 +34,6 @@ p, li {
     font-size: 1.1em;
 }
 
-.page-container {		
-	width: 1060px;
-	margin: 0 auto;						
-}
-
 .head {
 	margin-top: 20px;
 	margin-bottom: 40px;
@@ -50,4 +45,16 @@ p, li {
 
 .align-right {
 	text-align: right;
+}
+
+.page-container {		
+	width: 1060px;
+	margin: 0 auto;						
+}
+
+@media (max-width: 1060px) {
+	.page-container {		
+		width: 96%;
+		padding: 2%;	
+	}
 }

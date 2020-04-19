@@ -7,14 +7,12 @@ export default class Accordion extends Component {
         super(props);
 
         this.state = {
-            open: false,
             openId: 1
         }
     }
 
     toggle = (id) => {
         this.setState({
-            open: this.state.openId === id && !this.open,
             openId: id
         });
     }
@@ -32,7 +30,7 @@ export default class Accordion extends Component {
                         </div>					
                         <h2>{item.title}</h2>
                         <p>{item.subtitle}</p>
-                        <p>{item.text}</p>
+                        <p dangerouslySetInnerHTML={{__html: item.text}}></p>
                     </section>
                 ))}
             </article>

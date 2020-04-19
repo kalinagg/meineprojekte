@@ -1,3 +1,9 @@
 .logo-container {
 	display: inline-block;
 }
+
+@media (max-width: 850px) {
+	.logo-container {		
+		padding-left: 10px;
+	}
+}	

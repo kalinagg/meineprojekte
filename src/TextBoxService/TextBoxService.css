@@ -27,3 +27,16 @@
 .service-text li {
 	padding: 3px 0;
 }
+
+@media (max-width: 600px) {
+   .service-text {
+	   display: block;
+	   width: auto;
+	   border-radius: 0 0 10px 10px;
+   }
+   
+   .service-small {	
+	   border-right: none;
+	   border-bottom: 2px solid #fff;
+   }
+}

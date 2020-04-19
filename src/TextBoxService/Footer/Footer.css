@@ -23,6 +23,7 @@
 	display: inline-block				
 }
 
+
 .foot li:after {
 	content: '|';		
 }
@@ -33,4 +34,8 @@
 
 .foot a {
 	margin: 0 7px;
+}
+
+.foot a:hover {
+	border-bottom: 1px solid #fa0;		
 }

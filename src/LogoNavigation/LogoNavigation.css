@@ -106,3 +106,30 @@
 a.page-link-dark {
 	color: #666;
 }
+
+@media (max-width: 1060px) {
+	.page-container {		
+		width: 96%;
+		padding: 2%;	
+	}	
+	
+	.page-logo {
+		margin: 0;		
+	}
+	
+	.page-logo-image,
+	.page-logo-word {
+		display: block;
+		text-align: center;		
+	}		
+	
+	.page-logo-word {
+		padding: 0;
+	}
+}
+
+@media (max-width: 850px) {
+	.page-logo {
+		display: block;		
+	}
+}

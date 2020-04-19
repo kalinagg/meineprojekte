@@ -1,10 +1,8 @@
-.nav {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;	
+.nav-container {
+	float: right;	
 }
 
-.nav li {
+.nav-container a {
 	float: left;
 	padding: 51px 0;
 	min-width: 140px;
@@ -12,14 +10,28 @@
   	font-size: 1.2em;
 }
 
-.nav a:hover {
+.nav-container span:hover {
 	border-bottom: 1px solid #fa0;		
 }
 
-.nav-active {		
+.nav-container .active {		
 	background: url('./images/active.png') no-repeat center;
 }
 
-.nav-container {	
-	float: right;	
+@media (max-width: 1060px) {
+	.nav-container {
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 850px) {
+	.nav-container {
+		float: none;
+	}
+	
+	.nav-container a {
+		display: block;
+		float: none;
+		padding: 10px;
+	}
 }
