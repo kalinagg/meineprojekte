@@ -7,24 +7,16 @@ export default class LogoNavigation extends Component {
     render() {
         return (					 
 			<div className="page-logo">				
-				<div className="page-logo-image page-links">					
-					<div className="page-logo-purple">						
-						<Link to="/projects">Projekte</Link>
-					</div>
-					<div className="page-logo-grey">
-						<Link to="/service">Service</Link>
-					</div>					
-					<div className="page-logo-light-grey">
-						<Link to="/aboutme" className="page-link-dark">Über mich</Link>
-					</div>
-					<div className="page-logo-yellow">
-						<Link to="/contact" className="page-link-small">Kontakt</Link>
-					</div>	
-				</div>
-				<div className="page-logo-word">
-					<img src={logoText} alt="Kalina Georgieva Graphic Design" />					 
-				</div>
-			</div>					
+				<nav aria-label="home" className="page-logo-image">
+					<ul>
+						<li><Link className="page-logo-link page-logo-purple" to="/projects">Projekte</Link></li>
+						<li><Link className="page-logo-link page-logo-grey" to="/service">Service</Link></li>
+						<li><Link className="page-logo-link page-logo-light-grey" to="/aboutme">Über mich</Link></li>
+						<li><Link className="page-logo-link page-logo-yellow" to="/contact">Kontakt</Link></li>
+					</ul>
+				</nav>
+				<img className="page-logo-word" src={logoText} alt="Kalina Georgieva Graphic Design" />
+			</div>
         )
     }
 }

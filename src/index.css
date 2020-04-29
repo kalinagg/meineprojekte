@@ -47,14 +47,14 @@ p, li {
 	text-align: right;
 }
 
-.page-container {		
+.page-container {
 	width: 1060px;
-	margin: 0 auto;						
+	margin: 0 auto;
 }
 
 @media (max-width: 1060px) {
-	.page-container {		
+	.page-container {
 		width: 96%;
-		padding: 2%;	
+		padding: 2%;
 	}
 }

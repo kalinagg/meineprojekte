@@ -1,24 +1,35 @@
 .page-logo {
-	display: table;
-	position: relative;
-	width: 100%;	
-	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
 }
 
-.page-logo-image {	
-	display: table-cell;
+.page-logo-image {
+	font-size: 2.2em;
 	width: 50%;
-	height: 500px;
+	height: 475px;
+	position: relative;
 }
 
-.page-logo-word {	
-	display: table-cell;
-	vertical-align: middle;
+.page-logo-image ul {
+	padding: 0;
+	margin: 0;
+}
+
+.page-logo-image li {
+	list-style-type: none;
+}
+
+.page-logo-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
 }
 
 .page-logo-purple {
 	position: absolute;
-	display: table;		
 	top: 0;
 	left: 0;
 	background: url('./images/CirclePurple.svg') no-repeat;
@@ -29,7 +40,6 @@
 
 .page-logo-grey {
     position: absolute;
-    display: table;
     top: 21px;
   	left: 259px;
   	background: url('./images/CircleGrey.svg') no-repeat;
@@ -40,23 +50,23 @@
 
 .page-logo-light-grey {
     position: absolute;
-    display: table;
     top: 235px;
   	left: 123px;
   	background: url('./images/CircleLightGrey.svg') no-repeat;
 	width: 217px;	
 	height: 221px;
 	transition: ease-out 0.3s;
+	color: #666;
 }
 
 .page-logo-yellow {
     position: absolute;
-    display: table;
     top: 286px;
   	left: 346px;
   	background: url('./images/CircleYellow.svg') no-repeat;
 	width: 125px;
-	height: 117px;		
+	height: 117px;
+	font-size: 0.73em;
 }			
 
 .page-logo-purple,	
@@ -81,55 +91,16 @@
 
 .page-logo-yellow:hover {						
 	transform: scale(1.07) translate(10px, 10px);		
-}	
-
-.page-links {		
-	font-size: 2.2em;	  		
-}
-
-.page-links a {
-	display: table-cell;
-	position: relative;
-	border: none;		
-	color: #fff;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	vertical-align: middle;
-		
-}
-
-.page-link-small {
-	font-size: 0.73em;
-}
-
-a.page-link-dark {
-	color: #666;
 }
 
 @media (max-width: 1060px) {
-	.page-container {		
-		width: 96%;
-		padding: 2%;	
-	}	
-	
 	.page-logo {
-		margin: 0;		
+		flex-direction: column;
+		margin: 0;
+		text-align: center;
 	}
-	
-	.page-logo-image,
-	.page-logo-word {
-		display: block;
-		text-align: center;		
-	}		
-	
-	.page-logo-word {
-		padding: 0;
-	}
-}
 
-@media (max-width: 850px) {
-	.page-logo {
-		display: block;		
+	.page-logo-image {
+		width: 70%;
 	}
 }
