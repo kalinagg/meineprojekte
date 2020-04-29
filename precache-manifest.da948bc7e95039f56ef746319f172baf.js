@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3bebf172601c1d46b23750906d2a0e79",
+    "revision": "acd188101de956f8eda6d2c2e6969521",
     "url": "/meineprojekte/index.html"
   },
   {
-    "revision": "6ec0bef52a0c479bbc7f",
-    "url": "/meineprojekte/static/css/main.9ec12b94.chunk.css"
+    "revision": "71a944f542d294f25b6c",
+    "url": "/meineprojekte/static/css/main.57a9799d.chunk.css"
   },
   {
     "revision": "956be09eb8e059ebefed",
@@ -16,32 +16,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/meineprojekte/static/js/2.3f55595a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ec0bef52a0c479bbc7f",
-    "url": "/meineprojekte/static/js/main.867f4a8c.chunk.js"
+    "revision": "71a944f542d294f25b6c",
+    "url": "/meineprojekte/static/js/main.44881983.chunk.js"
   },
   {
     "revision": "f6139e939ddda20b8b7e",
     "url": "/meineprojekte/static/js/runtime-main.7d5cb7c2.js"
   },
   {
-    "revision": "1f89d470eb837341ef9076d9ff17fe2e",
-    "url": "/meineprojekte/static/media/CircleGrey.1f89d470.svg"
+    "revision": "a0a9473cf89aa21e28df4ec5cb07e154",
+    "url": "/meineprojekte/static/media/CircleGrey.a0a9473c.svg"
   },
   {
-    "revision": "8d29df3732723b05ed8945e377aae37a",
-    "url": "/meineprojekte/static/media/CircleLightGrey.8d29df37.svg"
+    "revision": "2550d6916432fb8008111acbdd3b5533",
+    "url": "/meineprojekte/static/media/CircleLightGrey.2550d691.svg"
   },
   {
-    "revision": "ecfed3aa0e89793597536ee611691c14",
-    "url": "/meineprojekte/static/media/CirclePurple.ecfed3aa.svg"
+    "revision": "3f55e2a5fd36466f6c837f1cf9b0befc",
+    "url": "/meineprojekte/static/media/CirclePurple.3f55e2a5.svg"
   },
   {
-    "revision": "48b82545ad90f6a38916937657ff945f",
-    "url": "/meineprojekte/static/media/CircleYellow.48b82545.svg"
+    "revision": "47b4a138ca910b119c9f394d272e1a5b",
+    "url": "/meineprojekte/static/media/CircleYellow.47b4a138.svg"
   },
   {
-    "revision": "649e12f97f09ec1c0b5e3901e85439fa",
-    "url": "/meineprojekte/static/media/LogoText.649e12f9.svg"
+    "revision": "9135edbc8a6a51b6c1792c8ca9fbd0f8",
+    "url": "/meineprojekte/static/media/LogoText.9135edbc.svg"
   },
   {
     "revision": "7fd59e6e53cc7605ab583d37d9083160",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/meineprojekte/static/media/calendar.7e454d8c.png"
   },
   {
-    "revision": "34f070c7dec04d516cf4a4ec462d9693",
-    "url": "/meineprojekte/static/media/logo.34f070c7.svg"
+    "revision": "17603fa4ce89f8b15582d29c8cae5196",
+    "url": "/meineprojekte/static/media/logo.17603fa4.svg"
   },
   {
     "revision": "6c02c6a6c528dabef578c6fae2c93a3c",
