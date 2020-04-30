@@ -7,8 +7,10 @@ export default class Logo extends Component {
     render() {
         return (
             <div className="logo-container">
-                <Link to="/"><img src={LogoSmall} alt="Kalina Georgieva Graphic Design" /></Link>
-            </div>                
+                <Link to="/" title="Zurück zu der Hauptseite">
+                    <img src={LogoSmall} alt="Kalina Georgieva Graphic Design Logo" />
+                </Link>
+            </div>
         )
     }
 }

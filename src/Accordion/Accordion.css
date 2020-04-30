@@ -5,7 +5,7 @@
 	overflow: auto;					
 }
 
-.accordion section {
+.accordion article {
 	position: relative;
 	display: block;
 	float: left;
@@ -13,58 +13,62 @@
 	height: 100%;
 	margin-left: 0.17241379310344827586206896551724%;								
 	overflow: hidden;		
-	border-radius: 0 10px 10px 0;		
-	-webkit-transition: all 0.8s ease;
-	-moz-transition: all 0.8s ease;
-	-ms-transition: all 0.8s ease;
-	-o-transition: all 0.8s ease;
+	border-radius: 0 10px 10px 0;
 	transition: all 0.8s ease;
 	background: url('./images/arrow.png') no-repeat bottom 7px right 7px #eee;		
 }
 
-.accordion section:first-child {
+.accordion article:first-child {
 	margin-left: 0;
 }
 
-.accordion section .image-container {
+.accordion .image-container {
 	margin: 35px 25px;
 }
 
-.accordion section.acc-open .image-container {
+.accordion .acc-open .image-container {
 	overflow: hidden;
-	      
 }
 
-.accordion section h2,
-.accordion section p {
+.accordion h3 {
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+}
+
+.accordion h2,
+.accordion h3,
+.accordion p {
 	display: none;
 	padding: 0 25px;
 	width: 630px;
 }
 
-.accordion section.acc {		
+.accordion .acc {		
 	cursor: pointer;		
 }
 
-.accordion section.acc p a {		
+.accordion .acc p a {		
 	border-bottom: 1px solid #fa0;		
 }
 
-.accordion section.acc-open {
+.accordion .acc-open {
 	cursor: default;						
 	border-radius: 0;
 	background-image: none;
 	width: 68.965517241379310344827586206897%;
 }
 
-.accordion section.acc-open h2,
-.accordion section.acc-open p {
+.accordion .acc-open h2,
+.accordion .acc-open h3,
+.accordion .acc-open p {
 	display: block;			
 }
 
 @media (max-width: 1060px) {
-	.accordion section h2,
-	.accordion section p {
+	.accordion h2,
+	.accordion h3,
+	.accordion p {
 		width: 520px;
 	}
 }
@@ -74,34 +78,35 @@
 		height: auto;
 	}
 	
-	.accordion section {
+	.accordion article {
 		width: 100%;
 		height: auto;		
 		float: none;
 		margin-left: 0;
 		margin-bottom: 2px;
-		cursor: default;	    
+		cursor: default;	  
 		background-image: none;
-		border-radius: 0 0 10px 10px;	    
+		border-radius: 0 0 10px 10px;	  
 	}
 	
-	.accordion section.acc-open {
+	.accordion .acc-open {
 		width: 100%;
 		cursor: default;
-		border-radius: 0 0 10px 10px;			    
+		border-radius: 0 0 10px 10px;			  
 	}
 	
-	.accordion section h2,
-	.accordion section p {
+	.accordion h2,
+	.accordion h3,
+	.accordion p {
 		display: block;
 		width: auto;
 	}
 	
-	.accordion section p:last-child {
+	.accordion p:last-child {
 		margin-bottom: 30px
-	}			
-	   
-	.accordion section .image-container {
+	}
+
+	.accordion .image-container {
 		overflow: hidden;
 	}
 }

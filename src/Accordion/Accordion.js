@@ -15,25 +15,33 @@ export default class Accordion extends Component {
         this.setState({
             openId: id
         });
-    }
+    };
+
+    isOpen = (itemId) => {
+        return this.state.openId === itemId;
+    };
 
     render() {
         return (
-            <article className="accordion">
-                {acc.map((item, i) => (
-                    <section
-                        key={item.id}
-                        onClick={() => this.toggle(item.id)}
-                        className={this.state.openId === item.id ? 'acc acc-open' : 'acc'}>
-                        <div className="image-container">
-                            <img src={item.image} alt={item.title} />
-                        </div>					
-                        <h2>{item.title}</h2>
-                        <p>{item.subtitle}</p>
-                        <p dangerouslySetInnerHTML={{__html: item.text}}></p>
-                    </section>
-                ))}
-            </article>
+            <main>
+                <section className="accordion">
+                    {acc.map((item, i) => (
+                        <article
+                            title={item.title}
+                            key={item.id}
+                            onClick={() => this.toggle(item.id)}
+                            className={this.isOpen(item.id) ? 'acc acc-open' : 'acc'}
+                            role={!this.isOpen(item.id) ? 'button' : ''}>
+                            <div className="image-container">
+                                <img src={item.image} alt={item.title} />
+                            </div>
+                            <h2>{item.title}</h2>
+                            <h3>{item.subtitle}</h3>
+                            <p dangerouslySetInnerHTML={{__html: item.text}} />
+                        </article>
+                    ))}
+                </section>
+            </main>
         )
     }
 }
