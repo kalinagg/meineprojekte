@@ -30,8 +30,10 @@ export default class Accordion extends Component {
                             title={item.title}
                             key={item.id}
                             onClick={() => this.toggle(item.id)}
+                            onKeyPress={() => this.toggle(item.id)}
                             className={this.isOpen(item.id) ? 'acc acc-open' : 'acc'}
-                            role={!this.isOpen(item.id) ? 'button' : ''}>
+                            role={!this.isOpen(item.id) ? 'button' : 'region'}
+                            tabIndex="0">
                             <div className="image-container">
                                 <img src={item.image} alt={item.title} />
                             </div>
