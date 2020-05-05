@@ -30,42 +30,40 @@
 
 .page-logo-purple {
 	position: absolute;
-	top: 0;
-	left: 0;
 	background: url('./images/CirclePurple.svg') no-repeat;
-	width: 250px;
-	height: 244px;
+	width: 47%;
+	height: 51%;
 	transition: ease-out 0.3s;
 }		
 
 .page-logo-grey {
     position: absolute;
-    top: 21px;
-  	left: 259px;
+    top: 4%;
+  	left: 49%;
   	background: url('./images/CircleGrey.svg') no-repeat;
-	width: 240px;
-	height: 261px;
+	width: 45%;
+	height: 55%;
 	transition: ease-out 0.3s;
 }
 
 .page-logo-light-grey {
     position: absolute;
-    top: 235px;
-  	left: 123px;
+    top: 49%;
+  	left: 23%;
   	background: url('./images/CircleLightGrey.svg') no-repeat;
-	width: 217px;	
-	height: 221px;
+	width: 41%;
+	height: 47%;
 	transition: ease-out 0.3s;
 	color: #666;
 }
 
 .page-logo-yellow {
     position: absolute;
-    top: 286px;
-  	left: 346px;
+    top: 60%;
+  	left: 66%;
   	background: url('./images/CircleYellow.svg') no-repeat;
-	width: 125px;
-	height: 117px;
+	width: 24%;
+	height: 25%;
 	font-size: 0.73em;
 }			
 
@@ -74,33 +72,70 @@
 .page-logo-light-grey,
 .page-logo-yellow {
 	transition: linear 0.3s;
-	background-size: 100%;	
-}	
-
-.page-logo-purple:hover {						
-	transform: scale(1.07) translate(-10px, -10px);				
+	background-size: contain;
 }
 
-.page-logo-grey:hover {						
-	transform: scale(1.07) translate(10px, -10px);		
+.page-logo-purple {
+	background-position: bottom right;
 }
 
-.page-logo-light-grey:hover {						
-	transform: scale(1.07) translate(-10px, 10px);		
+.page-logo-purple:hover {
+	transform: scale(1.07) translate(-10px, -10px);
 }
 
-.page-logo-yellow:hover {						
-	transform: scale(1.07) translate(10px, 10px);		
+.page-logo-grey {
+	background-position: bottom left;
+}
+
+.page-logo-grey:hover {
+	transform: scale(1.07) translate(10px, -10px);
+}
+
+.page-logo-light-grey {
+	background-position: top right;
+}
+
+.page-logo-light-grey:hover {
+	transform: scale(1.07) translate(-10px, 10px);
+}
+
+.page-logo-yellow {
+	background-position: top left;
+}
+
+.page-logo-yellow:hover {
+	transform: scale(1.07) translate(10px, 10px);
 }
 
 @media (max-width: 1060px) {
 	.page-logo {
 		flex-direction: column;
-		margin: 0;
-		text-align: center;
 	}
 
 	.page-logo-image {
 		width: 70%;
+	}
+
+	.page-logo-word {
+		width: 50%;
+	}
+}
+
+@media (max-width: 1060px) and (orientation: landscape) {
+	.page-logo {
+		height: auto;
+	}
+}
+
+@media (max-width: 700px) {
+	.page-logo-image {
+		width: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+	.page-logo-image {
+		font-size: 1.4em;
+		height: 300px;
 	}
 }
