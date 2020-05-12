@@ -11,7 +11,7 @@ export const acc = [
         image: apetitniNe6ta,
         title: 'Meine Rezeptensammlung',
         subtitle: 'Privates React Projekt',
-        text: 'Umsetzung von einer Webapplikation mit React, Typescript, Material UI und viel Kreativität. Der Code kann auf <a href="https://github.com/kalinagg/apetitni.ne6ta." target="blank">Github</a> gecheckt werden.'
+        text: 'Umsetzung von einer Webapplikation mit React, Typescript, Material UI und viel Kreativität. Der Code kann auf <a href="https://github.com/kalinagg/apetitni.ne6ta." target="blank">Github</a> gecheckt werden und die App kann auf <a href="https://secure-reef-84581.herokuapp.com" target="blank">Heroku</a> ausprobiert werden.'
     },
     {
         id: 2,
