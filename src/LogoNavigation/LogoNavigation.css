@@ -107,6 +107,19 @@
 	transform: scale(1.07) translate(10px, 10px);
 }
 
+.page-logo-text-1, .page-logo-text-2 {
+	color: #666;
+	margin: 0;
+}
+
+.page-logo-text-1 {
+	font-size: 4em;
+}
+
+.page-logo-text-2 {
+	font-size: 2em;
+}
+
 @media (max-width: 1060px) {
 	.page-logo {
 		flex-direction: column;
@@ -114,11 +127,6 @@
 
 	.page-logo-image {
 		width: 70%;
-	}
-
-	.page-logo-word {
-		width: 50%;
-		margin-top: 20px;
 	}
 }
 

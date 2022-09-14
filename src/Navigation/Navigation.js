@@ -9,8 +9,8 @@ export default class Navigation extends Component {
                 <NavLink to="/projects" activeClassName="active">
                     <span>Projekte</span>
                 </NavLink>
-                <NavLink to="/service" activeClassName="active">
-                    <span>Service</span>
+                <NavLink to="/cv" activeClassName="active">
+                    <span>Lebenslauf</span>
                 </NavLink>			  
                 <NavLink to="/aboutme" activeClassName="active">
                     <span>Über mich</span>

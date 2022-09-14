@@ -5,7 +5,7 @@ import Header from './Header/Header';
 import Accordion from './Accordion/Accordion';
 import TextBox from './TextBox/TextBox';
 import TextBoxAbout from './TextBoxAbout/TextBoxAbout';
-import TextBoxService from './TextBoxService/TextBoxService';
+import TextBoxCV from './TextBoxCV/TextBoxCV';
 import Footer from './Footer/Footer';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -22,9 +22,9 @@ function App() {
               <Accordion />
               <Footer />
             </Route>
-            <Route path="/service">
+            <Route path="/cv">
               <Header />
-              <TextBoxService />
+              <TextBoxCV />
               <Footer />
             </Route>
             <Route path="/aboutme">

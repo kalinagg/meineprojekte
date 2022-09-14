@@ -1,0 +1,22 @@
+.text-box-cv-container {
+	text-align: center;
+
+}
+
+.text-box-cv-text {
+	display: inline-block;
+	background: #eee;
+	padding: 35px 25px;
+	text-align: left;
+	border-radius: 10px;
+}
+
+.text-box-cv-icon {
+	text-align: center;
+	margin: 0;
+}
+
+.text-box-cv-icon-link {
+	cursor: pointer;
+	display: inline-block;
+}

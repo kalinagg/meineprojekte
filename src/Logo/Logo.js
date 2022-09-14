@@ -8,7 +8,7 @@ export default class Logo extends Component {
         return (
             <div className="logo-container">
                 <Link to="/" title="Zurück zu der Hauptseite">
-                    <img src={LogoSmall} alt="Kalina Georgieva Graphic Design Logo" />
+                    <img src={LogoSmall} alt="Kalina Georgieva Design & Development" />
                 </Link>
             </div>
         )
