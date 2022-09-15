@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import LogoNavigation from './LogoNavigation/LogoNavigation';
 import Header from './Header/Header';
-import Accordion from './Accordion/Accordion';
 import TextBox from './TextBox/TextBox';
 import TextBoxAbout from './TextBoxAbout/TextBoxAbout';
 import TextBoxCV from './TextBoxCV/TextBoxCV';
 import Footer from './Footer/Footer';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import TextBoxProjects from './TextBoxProjects/TextBoxProjects';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             </Route>
             <Route path="/projects">
               <Header />
-              <Accordion />
+              <TextBoxProjects />
               <Footer />
             </Route>
             <Route path="/cv">

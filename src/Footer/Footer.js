@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
     render() {
+        const currentYear = new Date().getFullYear()
+
         return (
             <footer className="foot-container">
                 <nav aria-label="Footer">
@@ -16,7 +18,7 @@ export default class Footer extends Component {
                         <li><Link to="contact">Impressum</Link></li>
                     </ul>
                 </nav>
-                <p className="clear">&copy; Copyright 2020 Kalina Georgieva. Alle Rechte vorbehalten.</p>
+                <p className="clear">&copy; Copyright {currentYear} Kalina Georgieva. Alle Rechte vorbehalten.</p>
             </footer>
         )
     }

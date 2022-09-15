@@ -1,0 +1,25 @@
+.projects-article {
+	background: #eee;
+	padding: 35px 25px;
+	border-radius: 4px;
+	margin-bottom: 2px;
+}
+
+.projects-h2 {
+	margin-bottom: 4px;
+}
+
+.projects-article h3 {
+	margin: 0 0 26px;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+.projects-article p {
+	margin-bottom: 40px;
+}
+
+.projects-article a {
+	border-bottom: 1px solid #fa0;
+}

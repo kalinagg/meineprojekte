@@ -37,6 +37,7 @@ p, li {
 .head {
 	margin-top: 20px;
 	margin-bottom: 40px;
+	overflow: hidden;
 }
 	
 .clear {
@@ -56,5 +57,11 @@ p, li {
 	.page-container {
 		width: 96%;
 		padding: 2%;
+	}
+}
+
+@media (max-width: 850px) {
+	.head {
+		margin-bottom: 20px;
 	}
 }

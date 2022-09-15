@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import './TextBoxAbout.css';
-import Me from './images/me.png';
-import MeLandscape from './images/meLandscape.png';
-import MeLandscapeSmall from './images/meLandscapeSmall.png';
 
 export default class TextBoxAbout extends Component {
     render() {
@@ -10,16 +7,13 @@ export default class TextBoxAbout extends Component {
         	<main>
 				<section className="info-container">
 					<article className="info-text" title="Über mich">
-						<h2>Erfahren Sie mehr über mich ...</h2>
-						<p>Ich bin tätig in den Online Bereich seit 2006. In alle diesen Jahren war ich wichtiges Bestandteil von vielen interessanten Projekten. Die Zusammenarbeit mit Kollegen und auch die selbstängide Ausführung der gestellten Anforderungen macht mir große Freude!</p>
-						<p>Die Erfahrung in Photoshop, Illustrator, HTML5/CSS3 und Javascript/jQuery geben mir das Wissen Sceen-Designs, Landing Pages oder ganze Webseiten fertig zu stellen. Ich habe unzählige online Kampagnen für Kunden wie Autodesk realisiert. Die Vertiebswebseite des Projektmanagement-Tool SeedPM, habe ich mit Wordpress entwickelt. Responsive Design, Bootstrap und CSS Präprozessoren wie LESS und SASS gehören auch zu meinen Kompetenzen.</p>
-						<p>Und jetzt bin ich auf der Suche nach neuen Herauforderungen, weil ... Grafik- und Webdesign ein Feld ist, wo ich meine Kreativität entfalten kann.</p>
+						<h2>Mehr über mich</h2>
+						<p>Ich bin Kalina und liebe jede Art von Design.</p>
+						<p>Nach meiner Studium in Computer Systeme und Technologien, war für mich eine Karriere als Webdesignerin die gewünschte Fortsetzung. Ich habe mir Technologien wie HTML, CSS, Dreamweaver, Flash, Photoshop selber beigebracht und als Webdesignerin in Sofia gestartet.</p>
+						<p>In 2008 bin ich nach Deutschland umgezogen, bin Richtung Frontend Entwicklung gegangen und mich technologisch noch weiter etnwickelt. Mit Technologien wie SCSS, Javascript, Typescript, React, Angular, Bootstrap, Material UI und Jest bin ich heute sehr gut vertraut.</p>
+						<p>Die Arbeit als Frontend Entwicklerin hat mir viel Spaß gemacht, mir fehlte aber den Design Part - meine Leidenschaft. In den letzten Monaten bilde ich mich Richtung  UX / UI Design weiter. Ich mache online Kurse und arbeite an private Design Projekte. Ich finde Figma extrem bequem und intuitiv fürs schnelles UI Prototyping und die Nielsen Norman Group Webseite gibt mir die neuesten Informationen über jegliche UX Themen.</p>
+						<p>Ich bin auf der Suche nach neuen Herausforderungen als UX Designerin, weil UX / UI ein Feld ist, wo ich meine Kreativität entfalten kann.</p>
 					</article>
-					<div className="info-image">
-						<img src={Me} alt="eine Foto von mir" className="info-image-portrait" />
-						<img src={MeLandscape} alt="eine Foto von mir" className="info-image-landscape" />
-						<img src={MeLandscapeSmall} alt="eine Foto von mir" className="info-image-landscape-small" />
-					</div>
 				</section>
 			</main>
         )

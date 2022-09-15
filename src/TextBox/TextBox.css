@@ -8,9 +8,9 @@
 	background: #eee;
 	padding: 35px 25px;	
 	text-align: left;
-	border-radius: 10px;
+	border-radius: 4px;
 }
 
-.contact-text a:hover{
+.contact-text a {
 	border-bottom: 1px solid #fa0;		
 }
