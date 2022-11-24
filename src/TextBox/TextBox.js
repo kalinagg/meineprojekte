@@ -12,7 +12,7 @@ export default class TextBox extends Component {
                         <p>Email: kalinagg<span style={{display: 'none'}}>diesen Text entfernen</span>@yahoo.de</p>
                         <p>Tel: +49 176 786 420 47</p>
                         <p>Adresse: 81539 München, Deutschland</p>
-                        <p>LinkedIn: <a href="https://de.linkedin.com/in/kalina-georgieva-2a365744" target="_blank">Kalina auf LinkedIn</a></p>
+                        <p>LinkedIn: <a href="https://de.linkedin.com/in/kalina-georgieva-2a365744" target="_blank" rel="noopener noreferrer">Kalina auf LinkedIn</a></p>
                         <p>Web: <a href="https://kalinagg.github.io/meineprojekte">Meine Projekte</a></p>
                     </article>
                 </section>
