@@ -14,3 +14,9 @@
 .contact-text a {
 	border-bottom: 1px solid #fa0;		
 }
+
+@media (max-width: 700px) {
+	.contact-text {
+		display: block;
+	}
+}
