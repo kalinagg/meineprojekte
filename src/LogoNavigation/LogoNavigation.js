@@ -14,7 +14,7 @@ export default class LogoNavigation extends Component {
 						<li><Link className="page-logo-link page-logo-yellow" to="/contact">Kontakt</Link></li>
 					</ul>
 				</nav>
-				<div>
+				<div className='page-logo-text'>
 					<h1 className='page-logo-text-1'>Kalina Georgieva</h1>
 					<h2 className='page-logo-text-2'>Design & Development</h2>
 				</div>

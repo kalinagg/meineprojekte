@@ -22,6 +22,7 @@
 }
 
 .page-logo-link {
+	font-size: 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -64,7 +65,7 @@
   	background: url('./images/CircleYellow.svg') no-repeat;
 	width: 24%;
 	height: 25%;
-	font-size: 0.73em;
+	font-size: 2.5rem;
 }			
 
 .page-logo-purple,	
@@ -113,26 +114,38 @@
 }
 
 .page-logo-text-1 {
-	font-size: 4em;
+	font-size: 5rem;
+	line-height: 5.5rem;
 }
 
 .page-logo-text-2 {
-	font-size: 2em;
+	font-size: 3rem;
+	padding: 0.125rem;
+	line-height: 3rem;
 }
 
 @media (max-width: 1060px) {
 	.page-logo {
 		flex-direction: column;
+		align-items: start;
 	}
 
 	.page-logo-image {
 		width: 70%;
 	}
+
+	.page-logo-text {
+		text-align: right;
+	}
 }
 
-@media (max-width: 1060px) and (orientation: landscape) {
+@media (max-width: 1060px) {
 	.page-logo {
 		height: auto;
+	}
+
+	.page-logo-text {
+		align-self: end;
 	}
 }
 
@@ -140,21 +153,14 @@
 	.page-logo-image {
 		width: 100%;
 	}
-}
 
-@media (max-width: 520px) {
 	.page-logo-text-1 {
-		font-size: 3em;
+		font-size: 4rem;
+		line-height: 4rem;
 	}
 
 	.page-logo-text-2 {
-		font-size: 1.5em;
-	}
-}
-
-@media (max-width: 500px) {
-	.page-logo-image {
-		font-size: 1.4em;
-		height: 300px;
+		font-size: 2.5rem;
+		line-height: 3rem;
 	}
 }
