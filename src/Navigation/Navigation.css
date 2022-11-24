@@ -18,6 +18,10 @@
 	background: url('./images/active.png') no-repeat center;
 }
 
+.nav-container .active span {
+	border-bottom: 1px solid #fa0;
+}
+
 @media (max-width: 1060px) {
 	.nav-container {
 		margin-right: 10px;
