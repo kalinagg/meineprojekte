@@ -55,8 +55,8 @@ p, li {
 
 @media (max-width: 1060px) {
 	.page-container {
-		width: 96%;
-		padding: 2%;
+		width: 100%;
+		padding: 0.125rem;
 	}
 }
 

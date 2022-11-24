@@ -128,6 +128,8 @@
 	.page-logo {
 		flex-direction: column;
 		align-items: start;
+		padding: 1rem;
+		height: auto;
 	}
 
 	.page-logo-image {
@@ -135,17 +137,8 @@
 	}
 
 	.page-logo-text {
-		text-align: right;
-	}
-}
-
-@media (max-width: 1060px) {
-	.page-logo {
-		height: auto;
-	}
-
-	.page-logo-text {
 		align-self: end;
+		text-align: right;
 	}
 }
 
