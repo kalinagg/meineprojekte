@@ -133,20 +133,47 @@
 	}
 
 	.page-logo-image {
-		width: 70%;
+		height: 50vw;
 	}
 
 	.page-logo-text {
 		align-self: end;
 		text-align: right;
 	}
+
+	.page-logo-link {
+		font-size: 5vw;
+	}
+
+	.page-logo-purple {
+		width: 26vw;
+		height: 26vw;
+	}		
+	
+	.page-logo-grey {
+		top: 4vw;
+		left: 27vw;
+		width: 24vw;
+		height: 26vw;
+	}
+	
+	.page-logo-light-grey {
+		top: 25vw;
+		left: 12vw;
+		width: 24vw;
+		height: 24vw;
+	}
+	
+	.page-logo-yellow {
+		top: 30vw;
+		left: 37vw;
+		width: 13vw;
+		height: 12.5vw;
+		font-size: 4vw;
+	}
 }
 
 @media (max-width: 700px) {
-	.page-logo-image {
-		width: 100%;
-	}
-
 	.page-logo-text-1 {
 		font-size: 4rem;
 		line-height: 4rem;
@@ -155,5 +182,40 @@
 	.page-logo-text-2 {
 		font-size: 2.5rem;
 		line-height: 3rem;
+	}
+
+	.page-logo-image {
+		height: 85vw;
+	}
+
+	.page-logo-link {
+		font-size: 9vw;
+	}
+
+	.page-logo-purple {
+		width: 40vw;
+		height: 40vw;
+	}		
+	
+	.page-logo-grey {
+		top: 8vw;
+		left: 42vw;
+		width: 38vw;
+		height: 40vw;
+	}
+	
+	.page-logo-light-grey {
+		top: 39vw;
+		left: 17vw;
+		width: 38vw;
+		height: 38vw;
+	}
+	
+	.page-logo-yellow {
+		top: 48vw;
+		left: 56vw;
+		width: 24vw;
+		height: 22.5vw;
+		font-size: 7vw;
 	}
 }
