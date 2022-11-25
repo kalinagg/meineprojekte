@@ -15,7 +15,6 @@ export default class Footer extends Component {
                         <li><Link to="cv">Lebenslauf</Link></li>
                         <li><Link to="aboutme">Über mich</Link></li>
                         <li><Link to="contact">Kontakt</Link></li>
-                        <li><Link to="contact">Impressum</Link></li>
                     </ul>
                 </nav>
                 <p className="clear">&copy; Copyright {currentYear} Kalina Georgieva. Alle Rechte vorbehalten.</p>
