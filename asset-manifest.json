@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/meineprojekte/static/css/main.494f9eab.chunk.css",
+    "main.js": "/meineprojekte/static/js/main.6682fafa.chunk.js",
+    "main.js.map": "/meineprojekte/static/js/main.6682fafa.chunk.js.map",
+    "runtime-main.js": "/meineprojekte/static/js/runtime-main.7d5cb7c2.js",
+    "runtime-main.js.map": "/meineprojekte/static/js/runtime-main.7d5cb7c2.js.map",
+    "static/js/2.2245e863.chunk.js": "/meineprojekte/static/js/2.2245e863.chunk.js",
+    "static/js/2.2245e863.chunk.js.map": "/meineprojekte/static/js/2.2245e863.chunk.js.map",
+    "index.html": "/meineprojekte/index.html",
+    "precache-manifest.c83a17c067f5e7d1c008cdc9169031c5.js": "/meineprojekte/precache-manifest.c83a17c067f5e7d1c008cdc9169031c5.js",
+    "service-worker.js": "/meineprojekte/service-worker.js",
+    "static/css/main.494f9eab.chunk.css.map": "/meineprojekte/static/css/main.494f9eab.chunk.css.map",
+    "static/js/2.2245e863.chunk.js.LICENSE.txt": "/meineprojekte/static/js/2.2245e863.chunk.js.LICENSE.txt",
+    "static/media/LogoNavigation.css": "/meineprojekte/static/media/CircleYellow.48b82545.svg",
+    "static/media/apetitni-ne6ta.png": "/meineprojekte/static/media/apetitni-ne6ta.f7c0b012.png",
+    "static/media/bavarian-costumes.png": "/meineprojekte/static/media/bavarian-costumes.7690f2f0.png",
+    "static/media/bread-course.png": "/meineprojekte/static/media/bread-course.5f9d190e.png",
+    "static/media/calendar.jpg": "/meineprojekte/static/media/calendar.d7e5bfad.jpg",
+    "static/media/casino.png": "/meineprojekte/static/media/casino.047e32ae.png",
+    "static/media/download-icon.svg": "/meineprojekte/static/media/download-icon.b9177d88.svg",
+    "static/media/kalina-georgieva-cv-de.pdf": "/meineprojekte/static/media/kalina-georgieva-cv-de.f6b9c187.pdf",
+    "static/media/logo.svg": "/meineprojekte/static/media/logo.359ab7fe.svg",
+    "static/media/music-4-you.png": "/meineprojekte/static/media/music-4-you.e0edd553.png",
+    "static/media/soccer-live-scores.png": "/meineprojekte/static/media/soccer-live-scores.f91dc10f.png",
+    "static/media/space-of-ross.png": "/meineprojekte/static/media/space-of-ross.e8a560b2.png",
+    "static/media/square-pics.png": "/meineprojekte/static/media/square-pics.13b3d1da.png",
+    "static/media/voicecom.png": "/meineprojekte/static/media/voicecom.3c4d4c8b.png",
+    "static/media/yoga-logo.png": "/meineprojekte/static/media/yoga-logo.2f969c4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d5cb7c2.js",
+    "static/js/2.2245e863.chunk.js",
+    "static/css/main.494f9eab.chunk.css",
+    "static/js/main.6682fafa.chunk.js"
+  ]
+}
