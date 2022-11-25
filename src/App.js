@@ -6,7 +6,7 @@ import TextBox from './TextBox/TextBox';
 import TextBoxAbout from './TextBoxAbout/TextBoxAbout';
 import TextBoxCV from './TextBoxCV/TextBoxCV';
 import Footer from './Footer/Footer';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import TextBoxProjects from './TextBoxProjects/TextBoxProjects';
 
 function App() {
