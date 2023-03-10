@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/meineprojekte/static/css/main.4a7fab97.css",
-    "main.js": "/meineprojekte/static/js/main.f068368d.js",
+    "main.js": "/meineprojekte/static/js/main.54830865.js",
     "static/media/bavarian-costumes.png": "/meineprojekte/static/media/bavarian-costumes.207f1a0edea2cee455a4.png",
     "static/media/apetitni-ne6ta.png": "/meineprojekte/static/media/apetitni-ne6ta.dd068a1675b0fbc380be.png",
     "static/media/bread-course.png": "/meineprojekte/static/media/bread-course.0bac6ac89e255a06fef0.png",
@@ -23,10 +23,10 @@
     "static/media/CirclePurple.svg": "/meineprojekte/static/media/CirclePurple.66c9494f60de5c97b403.svg",
     "static/media/CircleYellow.svg": "/meineprojekte/static/media/CircleYellow.fb93c4e72fd2914e3488.svg",
     "main.4a7fab97.css.map": "/meineprojekte/static/css/main.4a7fab97.css.map",
-    "main.f068368d.js.map": "/meineprojekte/static/js/main.f068368d.js.map"
+    "main.54830865.js.map": "/meineprojekte/static/js/main.54830865.js.map"
   },
   "entrypoints": [
     "static/css/main.4a7fab97.css",
-    "static/js/main.f068368d.js"
+    "static/js/main.54830865.js"
   ]
 }
