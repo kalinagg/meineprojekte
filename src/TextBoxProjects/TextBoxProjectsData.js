@@ -16,9 +16,9 @@ export const projects = [
         id: 1,
         image: bestBefore,
         title: 'Mobile App BestBefore',
-        subtitle: 'Privates Figma Project',
+        subtitle: 'Privates Figma Projekt',
         year: '2023',
-        text: 'Gestaltung von <a href="https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0" target="blank">Layouts in Figma</a> für eine mobile App, die zum verfolgen von Mindesthaltbarkeitsdaten jeglicher Produkte dient.'
+        text: 'Gestaltung von <a href="https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0" target="blank">Layouts in Figma</a> für eine mobile App, die zum Verfolgen von Mindesthaltbarkeitsdaten jeglicher Produkte dient.'
     },
     {
         id: 2,
