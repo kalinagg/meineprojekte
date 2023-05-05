@@ -1,6 +1,6 @@
 {
   "name": "meineprojekte",
-  "homepage": "https://kalinagg.github.io/meineprojekte",
+  "homepage": ".",
   "version": "0.2.0",
   "private": true,
   "dependencies": {

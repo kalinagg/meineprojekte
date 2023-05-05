@@ -12,7 +12,7 @@ import TextBoxProjects from './TextBoxProjects/TextBoxProjects';
 function App() {
   return (
     <div className="page-container" id="page-container">
-      <Router basename="/meineprojekte">
+      <Router basename="/">
           <Switch>
             <Route exact path="/">
               <LogoNavigation />
