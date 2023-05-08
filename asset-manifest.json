@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.424434a1.css",
-    "main.js": "./static/js/main.4cdcf291.js",
+    "main.css": "./static/css/main.945f7984.css",
+    "main.js": "./static/js/main.b809a491.js",
     "static/media/bavarian-costumes.png": "./static/media/bavarian-costumes.207f1a0edea2cee455a4.png",
     "static/media/apetitni-ne6ta.png": "./static/media/apetitni-ne6ta.dd068a1675b0fbc380be.png",
     "static/media/bread-course.png": "./static/media/bread-course.0bac6ac89e255a06fef0.png",
@@ -9,7 +9,7 @@
     "static/media/square-pics.png": "./static/media/square-pics.83b252dbd3df2e090dbb.png",
     "static/media/space-of-ross.png": "./static/media/space-of-ross.c80b843956c06ac665f1.png",
     "static/media/calendar.jpg": "./static/media/calendar.e9b02dae5a674ee4ec17.jpg",
-    "static/media/kalina-georgieva-cv-de.pdf": "./static/media/kalina-georgieva-cv-de.86024d75376a5fa7c699.pdf",
+    "static/media/kalina-georgieva-cv-de.pdf": "./static/media/kalina-georgieva-cv-de.f764822587067e21337e.pdf",
     "static/media/best-before.png": "./static/media/best-before.46c174999685ade96008.png",
     "static/media/voicecom.png": "./static/media/voicecom.00e390b4b0ce77eec1e2.png",
     "static/media/music-4-you.png": "./static/media/music-4-you.b49749fdd1836985eb29.png",
@@ -22,11 +22,11 @@
     "static/media/CircleLightGrey.svg": "./static/media/CircleLightGrey.8b6a1ecba44d3d692633.svg",
     "static/media/CirclePurple.svg": "./static/media/CirclePurple.66c9494f60de5c97b403.svg",
     "static/media/CircleYellow.svg": "./static/media/CircleYellow.fb93c4e72fd2914e3488.svg",
-    "main.424434a1.css.map": "./static/css/main.424434a1.css.map",
-    "main.4cdcf291.js.map": "./static/js/main.4cdcf291.js.map"
+    "main.945f7984.css.map": "./static/css/main.945f7984.css.map",
+    "main.b809a491.js.map": "./static/js/main.b809a491.js.map"
   },
   "entrypoints": [
-    "static/css/main.424434a1.css",
-    "static/js/main.4cdcf291.js"
+    "static/css/main.945f7984.css",
+    "static/js/main.b809a491.js"
   ]
 }
