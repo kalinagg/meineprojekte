@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import LogoNavigation from './LogoNavigation/LogoNavigation';
 import Header from './Header/Header';
-import TextBox from './TextBox/TextBox';
+import TextBox from './TextBoxContact/TextBoxContact';
 import TextBoxAbout from './TextBoxAbout/TextBoxAbout';
 import TextBoxCV from './TextBoxCV/TextBoxCV';
 import Footer from './Footer/Footer';

@@ -23,3 +23,7 @@
 .projects-article a {
 	border-bottom: 1px solid #fa0;
 }
+
+a.projects-image-link {
+	border: 0;
+}

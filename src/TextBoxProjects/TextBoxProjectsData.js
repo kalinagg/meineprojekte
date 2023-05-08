@@ -18,6 +18,7 @@ export const projects = [
         title: 'Mobile App BestBefore',
         subtitle: 'Privates Figma Projekt',
         year: '2023',
+        link: 'https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0',
         text: 'Gestaltung von <a href="https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0" target="blank">Layouts in Figma</a> für eine mobile App, die zum Verfolgen von Mindesthaltbarkeitsdaten jeglicher Produkte dient.'
     },
     {
@@ -26,6 +27,7 @@ export const projects = [
         title: 'Mobile App SQURE PICS',
         subtitle: 'Privates Figma Projekt',
         year: '2022',
+        link: 'https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1',
         text: 'Gestaltung von <a href="https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1" target="blank">Layouts in Figma</a> für eine mobile App, die zum Erstellen von einem Photokalender in PDF Format dient.'
     },
     {
@@ -34,7 +36,8 @@ export const projects = [
         title: 'Meine Rezeptensammlung',
         subtitle: 'Privates React Projekt',
         year: '2020',
-        text: 'Umsetzung von einer Webapplikation mit React, Typescript, Material UI und viel Kreativität. Der Code kann auf <a href="https://github.com/kalinagg/apetitni.ne6ta." target="blank">Github</a> gecheckt werden und die App kann auf <a href="https://secure-reef-84581.herokuapp.com" target="blank">Heroku</a> ausprobiert werden.'
+        link: 'https://github.com/kalinagg/apetitni.ne6ta',
+        text: 'Umsetzung von einer Webapplikation mit React, Typescript und Material UI. Der Code kann auf <a href="https://github.com/kalinagg/apetitni.ne6ta" target="blank">Github</a> gecheckt werden.'
     },
     {
         id: 4,
@@ -42,6 +45,7 @@ export const projects = [
         title: 'Brotbackkurs-Gutschein',
         subtitle: 'Privates Projekt für Print',
         year: '2016',
+        link: breadCourse,
         text: 'Erstellung von einem Brotbackkurs-Gutschein in Photoshop.'
     },
     {
@@ -50,6 +54,7 @@ export const projects = [
         title: 'Photokalender',
         year: '2016',
         subtitle: 'Privates Projekt für Print',
+        link: calendar,
         text: 'Erstellung von einem Photokalender in Photoshop.'
     },
     {
@@ -58,7 +63,8 @@ export const projects = [
         title: 'Online Shop für Trachtenmode',
         subtitle: 'Unternehmen: Macromedia GmbH',
         year: '2013',
-        text: 'Gestaltung von einer Website-Vorlage in Photoshop, dass in Rahmen von einer Interfacedesign Weiterbildung stattgefunden hat.'
+        link: bavarianCostumes,
+        text: 'Gestaltung von einer Website-Vorlage in Photoshop als Teil einer Interfacedesign Weiterbildung.'
     },
     {
         id: 7,
@@ -66,6 +72,7 @@ export const projects = [
         title: 'Webseite THE SPACE OF ROSS',
         subtitle: 'Privates Projekt für Web',
         year: '2013',
+        link: spaceOfRoss,
         text: 'Gestaltung von einer Website-Vorlage in Photoshop.'
     },
     {
@@ -74,6 +81,7 @@ export const projects = [
         title: 'Yoga Yvonne',
         subtitle: 'Privates Projekt für Logodesign',
         year: '2017',
+        link: yogaLogo,
         text: 'Gestaltung von einem Logo in Photoshop.'
     },
     {
@@ -82,6 +90,7 @@ export const projects = [
         title: 'Casino Webseite ACES UP',
         subtitle: 'Unternehmen: Mochanin Corp.',
         year: '2008',
+        link: casino,
         text: 'Gestaltung von einer Website-Vorlage in Photoshop.'
     },
     {
@@ -90,6 +99,7 @@ export const projects = [
         title: 'Unternehmenswebseite von Voicecom',
         subtitle: 'Unternehmen: Voicecom AG',
         year: '2007',
+        link: voicecom,
         text: 'Gestaltung von einer Website-Vorlage in Photoshop. Enwicklung der HTML Vorlagen mit Hilfe von Dreamweaver.'
     },
     {
@@ -98,6 +108,7 @@ export const projects = [
         title: 'Animiertes Werbebanner für Musik',
         subtitle: 'Unternehmen: Voicecom AG',
         year: '2007',
+        link: music4you,
         text: 'Gestaltung von einem animierten Werbebanner in Flash.'
     },
     {
@@ -106,6 +117,7 @@ export const projects = [
         title: 'Animiertes Werbebanner für Fußball',
         subtitle: 'Unternehmen: Voicecom AG',
         year: '2007',
+        link: soccer,
         text: 'Gestaltung von einem animierten Werbebanner in Flash.'
     }
 ]
