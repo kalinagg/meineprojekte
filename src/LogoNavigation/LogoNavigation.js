@@ -15,8 +15,8 @@ export default class LogoNavigation extends Component {
 					</ul>
 				</nav>
 				<div className='page-logo-text'>
-					<h1 className='page-logo-text-1'>Kalina Georgieva</h1>
-					<h2 className='page-logo-text-2'>Design & Development</h2>
+					<h1 className='page-logo-text-1'>Kalina.<span>Style</span></h1>
+					<h2 className='page-logo-text-2'>UX / UI Design</h2>
 				</div>
 			</main>
         )

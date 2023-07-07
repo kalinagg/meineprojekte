@@ -113,15 +113,19 @@
 	margin: 0;
 }
 
+.page-logo-text-1 span {
+	color: #909;
+}
+
 .page-logo-text-1 {
-	font-size: 5rem;
-	line-height: 5.5rem;
+	font-size: 6rem;
+	line-height: 7rem;
 }
 
 .page-logo-text-2 {
-	font-size: 3rem;
+	font-size: 4rem;
 	padding: 0.125rem;
-	line-height: 3rem;
+	line-height: 5rem;
 }
 
 @media (max-width: 1060px) {
