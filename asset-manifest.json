@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.a82a7cde.css",
+    "main.css": "./static/css/main.88d7558e.css",
     "main.js": "./static/js/main.4c9382c9.js",
     "static/media/bavarian-costumes.png": "./static/media/bavarian-costumes.207f1a0edea2cee455a4.png",
     "static/media/apetitni-ne6ta.png": "./static/media/apetitni-ne6ta.dd068a1675b0fbc380be.png",
@@ -22,11 +22,11 @@
     "static/media/CircleLightGrey.svg": "./static/media/CircleLightGrey.8b6a1ecba44d3d692633.svg",
     "static/media/CirclePurple.svg": "./static/media/CirclePurple.66c9494f60de5c97b403.svg",
     "static/media/CircleYellow.svg": "./static/media/CircleYellow.fb93c4e72fd2914e3488.svg",
-    "main.a82a7cde.css.map": "./static/css/main.a82a7cde.css.map",
+    "main.88d7558e.css.map": "./static/css/main.88d7558e.css.map",
     "main.4c9382c9.js.map": "./static/js/main.4c9382c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a82a7cde.css",
+    "static/css/main.88d7558e.css",
     "static/js/main.4c9382c9.js"
   ]
 }
