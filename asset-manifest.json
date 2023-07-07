@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.945f7984.css",
-    "main.js": "./static/js/main.e3d20b85.js",
+    "main.css": "./static/css/main.645c8016.css",
+    "main.js": "./static/js/main.f84d433b.js",
     "static/media/bavarian-costumes.png": "./static/media/bavarian-costumes.207f1a0edea2cee455a4.png",
     "static/media/apetitni-ne6ta.png": "./static/media/apetitni-ne6ta.dd068a1675b0fbc380be.png",
     "static/media/bread-course.png": "./static/media/bread-course.0bac6ac89e255a06fef0.png",
@@ -15,18 +15,18 @@
     "static/media/music-4-you.png": "./static/media/music-4-you.b49749fdd1836985eb29.png",
     "static/media/soccer-live-scores.png": "./static/media/soccer-live-scores.12977dd6f0e117f6752d.png",
     "static/media/yoga-logo.png": "./static/media/yoga-logo.da7cebf692e82af8ca76.png",
-    "static/media/logo.svg": "./static/media/logo.ccd3836112b0b60713a51d5b7c0f96c6.svg",
+    "static/media/logo.svg": "./static/media/logo.32cbecb15ca25d2752308b0f38e30abe.svg",
     "index.html": "./index.html",
     "static/media/download-icon.svg": "./static/media/download-icon.0a646db5f67e2a8fc20ffd74a517bfee.svg",
     "static/media/CircleGrey.svg": "./static/media/CircleGrey.98a235f158181ff65e17.svg",
     "static/media/CircleLightGrey.svg": "./static/media/CircleLightGrey.8b6a1ecba44d3d692633.svg",
     "static/media/CirclePurple.svg": "./static/media/CirclePurple.66c9494f60de5c97b403.svg",
     "static/media/CircleYellow.svg": "./static/media/CircleYellow.fb93c4e72fd2914e3488.svg",
-    "main.945f7984.css.map": "./static/css/main.945f7984.css.map",
-    "main.e3d20b85.js.map": "./static/js/main.e3d20b85.js.map"
+    "main.645c8016.css.map": "./static/css/main.645c8016.css.map",
+    "main.f84d433b.js.map": "./static/js/main.f84d433b.js.map"
   },
   "entrypoints": [
-    "static/css/main.945f7984.css",
-    "static/js/main.e3d20b85.js"
+    "static/css/main.645c8016.css",
+    "static/js/main.f84d433b.js"
   ]
 }
