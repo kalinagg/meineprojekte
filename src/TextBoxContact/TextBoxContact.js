@@ -8,7 +8,7 @@ export default class TextBox extends Component {
                 <section className="contact-container">
                     <article className="contact-text" title="Kontakt">
                         <h2>Kontakt / Impressum</h2>
-                        <p>Kalina Georgieva Design & Development</p>
+                        <p>Kalina Style<br />UX / UI Design</p>
                         <p>Email: kalinagg<span style={{display: 'none'}}>diesen Text entfernen</span>@yahoo.de</p>
                         <p>Tel: +49 176 786 420 47</p>
                         <p>Adresse: 81539 München, Deutschland</p>
