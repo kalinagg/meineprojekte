@@ -17,7 +17,7 @@ export default class Footer extends Component {
                         <li><Link to="contact">Kontakt</Link></li>
                     </ul>
                 </nav>
-                <p className="clear">&copy; Copyright {currentYear} Kalina Style UX / UI Design. Alle Rechte vorbehalten.</p>
+                <p className="clear">&copy; Copyright {currentYear} Kalina.Style UX / UI Design. Alle Rechte vorbehalten.</p>
             </footer>
         )
     }

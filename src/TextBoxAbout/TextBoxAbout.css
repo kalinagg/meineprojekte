@@ -10,3 +10,18 @@
 	padding: 35px 25px;
 	border-radius: 2px;
 }
+
+.last {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+	.info-text {
+		display: block;
+	}
+
+	.info-img-container {
+		text-align: center;
+		padding-top: 0;
+	}
+}

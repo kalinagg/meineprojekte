@@ -5,7 +5,6 @@ import bavarianCostumes from './images/bavarian-costumes.png'
 import breadCourse from './images/bread-course.png'
 import calendar from './images/calendar.jpg'
 import spaceOfRoss from './images/space-of-ross.png'
-import yogaLogo from './images/yoga-logo.png'
 import casino from './images/casino.png'
 import voicecom from './images/voicecom.png'
 import music4you from './images/music-4-you.png'
@@ -15,109 +14,100 @@ export const projects = [
     {
         id: 1,
         image: bestBefore,
-        title: 'Mobile App BestBefore',
-        subtitle: 'Privates Figma Projekt',
+        title: 'Best Before',
+        subtitle: 'Mobile App',
         year: '2023',
         link: 'https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0',
-        text: 'Gestaltung von <a href="https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0" target="blank">Layouts in Figma</a> für eine mobile App, die zum Verfolgen von Mindesthaltbarkeitsdaten jeglicher Produkte dient.'
+        text: '<a href="https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0" target="blank">Layouts in Figma</a> für eine mobile App zum Verfolgen von Mindesthaltbarkeitsdaten'
     },
     {
         id: 2,
         image: squarePics,
-        title: 'Mobile App SQURE PICS',
-        subtitle: 'Privates Figma Projekt',
+        title: 'Square Pics',
+        subtitle: 'Mobile App',
         year: '2022',
         link: 'https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1',
-        text: 'Gestaltung von <a href="https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1" target="blank">Layouts in Figma</a> für eine mobile App, die zum Erstellen von einem Photokalender in PDF Format dient.'
+        text: '<a href="https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1" target="blank">Layouts in Figma</a> für eine mobile App, die PDF Photokalender erstellt'
     },
     {
         id: 3,
         image: apetitniNe6ta,
-        title: 'Meine Rezeptensammlung',
-        subtitle: 'Privates React Projekt',
+        title: 'apetitni.ne6ta',
+        subtitle: 'Webseite',
         year: '2020',
         link: 'https://github.com/kalinagg/apetitni.ne6ta',
-        text: 'Umsetzung von einer Webapplikation mit React, Typescript und Material UI. Der Code kann auf <a href="https://github.com/kalinagg/apetitni.ne6ta" target="blank">Github</a> gecheckt werden.'
+        text: 'Umgesetzt mit React, Typescript und Material UI. Code auf <a href="https://github.com/kalinagg/apetitni.ne6ta" target="blank">Github</a>'
     },
     {
         id: 4,
-        image: breadCourse,
-        title: 'Brotbackkurs-Gutschein',
-        subtitle: 'Privates Projekt für Print',
-        year: '2016',
-        link: breadCourse,
-        text: 'Erstellung von einem Brotbackkurs-Gutschein in Photoshop.'
+        image: calendar,
+        title: 'Photokalender',
+        year: '2018',
+        subtitle: 'Print',
+        link: calendar,
+        text: 'Gestaltung in Photoshop'
     },
     {
         id: 5,
-        image: calendar,
-        title: 'Photokalender',
+        image: breadCourse,
+        title: 'Brotbackkurs-Gutschein',
+        subtitle: 'Print',
         year: '2016',
-        subtitle: 'Privates Projekt für Print',
-        link: calendar,
-        text: 'Erstellung von einem Photokalender in Photoshop.'
+        link: breadCourse,
+        text: 'Gestaltung in Photoshop'
     },
     {
         id: 6,
         image: bavarianCostumes,
-        title: 'Online Shop für Trachtenmode',
-        subtitle: 'Unternehmen: Macromedia GmbH',
+        title: 'Trachtenmode',
+        subtitle: 'Online Shop',
         year: '2013',
         link: bavarianCostumes,
-        text: 'Gestaltung von einer Website-Vorlage in Photoshop als Teil einer Interfacedesign Weiterbildung.'
+        text: 'Gestaltung in Photoshop'
     },
     {
         id: 7,
         image: spaceOfRoss,
-        title: 'Webseite THE SPACE OF ROSS',
-        subtitle: 'Privates Projekt für Web',
+        title: 'The Space of Ross',
+        subtitle: 'Webseite',
         year: '2013',
         link: spaceOfRoss,
-        text: 'Gestaltung von einer Website-Vorlage in Photoshop.'
-    },
-    {
-        id: 8,
-        image: yogaLogo,
-        title: 'Yoga Yvonne',
-        subtitle: 'Privates Projekt für Logodesign',
-        year: '2017',
-        link: yogaLogo,
-        text: 'Gestaltung von einem Logo in Photoshop.'
+        text: 'Gestaltung in Photoshop'
     },
     {
         id: 9,
         image: casino,
-        title: 'Casino Webseite ACES UP',
-        subtitle: 'Unternehmen: Mochanin Corp.',
+        title: 'Aces Up Casino Parties',
+        subtitle: 'Webseite, Mochanin Corp.',
         year: '2008',
         link: casino,
-        text: 'Gestaltung von einer Website-Vorlage in Photoshop.'
+        text: 'Gestaltung in Photoshop'
     },
     {
         id: 10,
         image: voicecom,
-        title: 'Unternehmenswebseite von Voicecom',
-        subtitle: 'Unternehmen: Voicecom AG',
+        title: 'Voicecom',
+        subtitle: 'Webseite, Voicecom AG',
         year: '2007',
         link: voicecom,
-        text: 'Gestaltung von einer Website-Vorlage in Photoshop. Enwicklung der HTML Vorlagen mit Hilfe von Dreamweaver.'
+        text: 'Gestaltung in Photoshop. Enwicklung der HTML Vorlagen in Dreamweaver'
     },
     {
         id: 11,
         image: music4you,
-        title: 'Animiertes Werbebanner für Musik',
-        subtitle: 'Unternehmen: Voicecom AG',
+        title: 'Music4you',
+        subtitle: 'Animiertes Werbebanner, Voicecom AG',
         year: '2007',
         link: music4you,
-        text: 'Gestaltung von einem animierten Werbebanner in Flash.'
+        text: 'Gestaltung in Flash'
     },
     {
         id: 12,
         image: soccer,
-        title: 'Animiertes Werbebanner für Fußball',
-        subtitle: 'Unternehmen: Voicecom AG',
+        title: 'Soccer',
+        subtitle: 'Animiertes Werbebanner, Voicecom AG',
         year: '2007',
         link: soccer,
-        text: 'Gestaltung von einem animierten Werbebanner in Flash.'
+        text: 'Gestaltung in Flash'
     }
 ]
