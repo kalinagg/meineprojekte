@@ -35,8 +35,8 @@ export const projects = [
         title: 'apetitni.ne6ta',
         subtitle: 'Webseite',
         year: '2020',
-        link: 'https://github.com/kalinagg/apetitni.ne6ta',
-        text: 'Umgesetzt mit React, Typescript und Material UI. Code auf <a href="https://github.com/kalinagg/apetitni.ne6ta" target="blank">Github</a>'
+        link: 'https://apetitni-ne6ta.vercel.app',
+        text: 'Umgesetzt mit React, Typescript und Material UI. Checken Sie die <a href="https://apetitni-ne6ta.vercel.app" target="_blank">Webseite</a> oder den Code auf <a href="https://github.com/kalinagg/apetitni.ne6ta" target="blank">Github</a>.'
     },
     {
         id: 4,
