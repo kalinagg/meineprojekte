@@ -5,7 +5,7 @@
  
 .info-text {
 	display: table-cell;
-	vertical-align: top;
+	vertical-align: middle;
 	background: #eee;
 	padding: 35px 25px;
 	border-radius: 2px;
