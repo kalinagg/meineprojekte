@@ -19,7 +19,7 @@ export const projects = [
         subtitle: 'Mobile App',
         year: '2023',
         link: 'https://www.figma.com/file/1OoJtGnwonubyYQ8UpMcMK/Living-home?type=design&node-id=0%3A1&mode=design&t=BbU8GI8H7lOCUs5L-1',
-        text: '<a href="https://www.figma.com/file/A5G35XUW0iDKr9zn7YSGnA/Kalina-Georgieva---Projektkonzept?type=whiteboard&node-id=0%3A1&t=ZMbKuLy7k4TtlHGA-1" target="blank">Design Konzept in FigJam</a> und <a href="https://www.figma.com/file/1OoJtGnwonubyYQ8UpMcMK/Living-home?type=design&node-id=0%3A1&mode=design&t=BbU8GI8H7lOCUs5L-1" target="blank">Layouts in Figma</a> für eine Smart Home App'
+        text: 'Eine Smart Home App mit <a href="https://www.figma.com/file/1OoJtGnwonubyYQ8UpMcMK/Living-home?type=design&node-id=0%3A1&mode=design&t=BbU8GI8H7lOCUs5L-1" target="blank">Layouts in Figma</a> und <a href="https://www.figma.com/file/A5G35XUW0iDKr9zn7YSGnA/Kalina-Georgieva---Projektkonzept?type=whiteboard&node-id=0%3A1&t=ZMbKuLy7k4TtlHGA-1" target="blank">Design Konzept in FigJam</a>'
     },
     {
         id: 1,
