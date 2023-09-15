@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7bf72161.css",
-    "main.js": "./static/js/main.46c36e4c.js",
+    "main.js": "./static/js/main.7c8a16d8.js",
     "static/media/bavarian-costumes.png": "./static/media/bavarian-costumes.207f1a0edea2cee455a4.png",
     "static/media/apetitni-ne6ta.png": "./static/media/apetitni-ne6ta.dd068a1675b0fbc380be.png",
     "static/media/bread-course.png": "./static/media/bread-course.0bac6ac89e255a06fef0.png",
@@ -24,10 +24,10 @@
     "static/media/CirclePurple.svg": "./static/media/CirclePurple.66c9494f60de5c97b403.svg",
     "static/media/CircleYellow.svg": "./static/media/CircleYellow.fb93c4e72fd2914e3488.svg",
     "main.7bf72161.css.map": "./static/css/main.7bf72161.css.map",
-    "main.46c36e4c.js.map": "./static/js/main.46c36e4c.js.map"
+    "main.7c8a16d8.js.map": "./static/js/main.7c8a16d8.js.map"
   },
   "entrypoints": [
     "static/css/main.7bf72161.css",
-    "static/js/main.46c36e4c.js"
+    "static/js/main.7c8a16d8.js"
   ]
 }
