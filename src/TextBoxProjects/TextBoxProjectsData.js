@@ -1,3 +1,4 @@
+import livingHome from './images/living-home.png'
 import bestBefore from './images/best-before.png'
 import squarePics from './images/square-pics.png'
 import apetitniNe6ta from './images/apetitni-ne6ta.png'
@@ -12,13 +13,22 @@ import soccer from './images/soccer-live-scores.png'
 
 export const projects = [
     {
+        id: 0,
+        image: livingHome,
+        title: 'Living Home',
+        subtitle: 'Mobile App',
+        year: '2023',
+        link: 'https://www.figma.com/file/1OoJtGnwonubyYQ8UpMcMK/Living-home?type=design&node-id=0%3A1&mode=design&t=BbU8GI8H7lOCUs5L-1',
+        text: '<a href="https://www.figma.com/file/A5G35XUW0iDKr9zn7YSGnA/Kalina-Georgieva---Projektkonzept?type=whiteboard&node-id=0%3A1&t=ZMbKuLy7k4TtlHGA-1" target="blank">Design Konzept in FigJam</a> und <a href="https://www.figma.com/file/1OoJtGnwonubyYQ8UpMcMK/Living-home?type=design&node-id=0%3A1&mode=design&t=BbU8GI8H7lOCUs5L-1" target="blank">Layouts in Figma</a> für eine Smart Home App'
+    },
+    {
         id: 1,
         image: bestBefore,
         title: 'Best Before',
         subtitle: 'Mobile App',
         year: '2023',
         link: 'https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0',
-        text: '<a href="https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0" target="blank">Layouts in Figma</a> für eine mobile App zum Verfolgen von Mindesthaltbarkeitsdaten'
+        text: '<a href="https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0" target="blank">Layouts in Figma</a> für eine App zum Verfolgen von Mindesthaltbarkeitsdaten'
     },
     {
         id: 2,
@@ -27,7 +37,7 @@ export const projects = [
         subtitle: 'Mobile App',
         year: '2022',
         link: 'https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1',
-        text: '<a href="https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1" target="blank">Layouts in Figma</a> für eine mobile App, die PDF Photokalender erstellt'
+        text: '<a href="https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1" target="blank">Layouts in Figma</a> für eine App, die PDF Photokalender erstellt'
     },
     {
         id: 3,
