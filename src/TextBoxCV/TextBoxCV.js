@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import DownloadIcon from './images/download-icon.svg';
-import DownloadFile from './files/kalina-georgieva-cv-de.pdf'
+import DownloadFile from './files/kalina-georgieva-creative-cv-de.pdf'
 import './TextBoxCV.css';
 
 export default class TextBox extends Component {
