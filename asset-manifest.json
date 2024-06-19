@@ -1,20 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.7bf72161.css",
-    "main.js": "./static/js/main.7c8a16d8.js",
+    "main.js": "./static/js/main.f8cb443c.js",
     "static/media/bavarian-costumes.png": "./static/media/bavarian-costumes.207f1a0edea2cee455a4.png",
     "static/media/apetitni-ne6ta.png": "./static/media/apetitni-ne6ta.dd068a1675b0fbc380be.png",
     "static/media/bread-course.png": "./static/media/bread-course.0bac6ac89e255a06fef0.png",
-    "static/media/casino.png": "./static/media/casino.bcf87f1d490ea51bf45e.png",
     "static/media/square-pics.png": "./static/media/square-pics.83b252dbd3df2e090dbb.png",
     "static/media/space-of-ross.png": "./static/media/space-of-ross.c80b843956c06ac665f1.png",
     "static/media/calendar.jpg": "./static/media/calendar.e9b02dae5a674ee4ec17.jpg",
+    "static/media/ucore-systems.png": "./static/media/ucore-systems.ebef811ac003e619df76.png",
     "static/media/living-home.png": "./static/media/living-home.018d950936d7acd13305.png",
-    "static/media/kalina-georgieva-cv-de.pdf": "./static/media/kalina-georgieva-cv-de.f764822587067e21337e.pdf",
-    "static/media/voicecom.png": "./static/media/voicecom.00e390b4b0ce77eec1e2.png",
     "static/media/best-before.png": "./static/media/best-before.fb036857cfbf205e6264.png",
-    "static/media/music-4-you.png": "./static/media/music-4-you.b49749fdd1836985eb29.png",
-    "static/media/soccer-live-scores.png": "./static/media/soccer-live-scores.12977dd6f0e117f6752d.png",
+    "static/media/kalina-georgieva-creative-cv-de.pdf": "./static/media/kalina-georgieva-creative-cv-de.93c23fd9a59fff28acfd.pdf",
     "static/media/me.jpg": "./static/media/me.37d5ba366c3fc5a4f8d9.jpg",
     "static/media/logo.svg": "./static/media/logo.4cfb50d53fadffdfaecda9f3535a210a.svg",
     "index.html": "./index.html",
@@ -24,10 +21,10 @@
     "static/media/CirclePurple.svg": "./static/media/CirclePurple.66c9494f60de5c97b403.svg",
     "static/media/CircleYellow.svg": "./static/media/CircleYellow.fb93c4e72fd2914e3488.svg",
     "main.7bf72161.css.map": "./static/css/main.7bf72161.css.map",
-    "main.7c8a16d8.js.map": "./static/js/main.7c8a16d8.js.map"
+    "main.f8cb443c.js.map": "./static/js/main.f8cb443c.js.map"
   },
   "entrypoints": [
     "static/css/main.7bf72161.css",
-    "static/js/main.7c8a16d8.js"
+    "static/js/main.f8cb443c.js"
   ]
 }
