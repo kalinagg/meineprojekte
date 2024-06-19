@@ -13,6 +13,8 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ### `npm run deploy`
+
+Not needed. Deployes automatically on vercel.
 Deploys the React app to GitHub Pages.<br />
 Additional docs: https://github.com/gitname/react-gh-pages
 
@@ -23,6 +25,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
+Not needed. Deployes automatically on vercel.
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
