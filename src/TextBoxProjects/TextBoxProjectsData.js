@@ -18,7 +18,7 @@ export const projects = [
         id: 0,
         image: ucoreSystes,
         title: 'Assisted Living',
-        subtitle: 'Mobile and Desktop App',
+        subtitle: 'Mobile und Desktop App',
         year: '2024',
         link: 'https://www.ucore-systems.com',
         text: 'Eine assisted living App gestaltet und konzipiert in Figma für <a href="https://www.ucore-systems.com" target="blank">uCORE Systems GmbH</a>'
