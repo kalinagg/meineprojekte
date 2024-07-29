@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Logo from '../logo/logo';
-import Navigation from '../navigation/navigation';
+import Logo from '../logo-new/logo';
+import Navigation from '../navigation-new/navigation';
 import Language from '../language/language';
 
 export default class Header extends Component {

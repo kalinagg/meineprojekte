@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import LogoNavigation from './logo-navigation/logo-navigation';
-import Header from './header/header';
+import Header from './header-new/header';
 import Contact from './contact/contact';
 import About from './about/about';
 import Cv from './cv/cv';
-import Footer from './footer/footer';
+import Footer from './footer-new/footer';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import TextBoxProjects from './projects/projects';
 import Language from './language/language';
