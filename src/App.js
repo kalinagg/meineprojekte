@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import LogoNavigation from './logo-navigation/logo-navigation';
-import Header from './header/Header';
+import Header from './header/header';
 import Contact from './contact/contact';
 import About from './about/about';
 import Cv from './cv/cv';
