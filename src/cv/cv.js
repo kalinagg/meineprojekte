@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
 import DownloadIcon from './images/download-icon.svg';
 import DownloadFile from './files/kalina-georgieva-creative-cv-de.pdf'
-import './TextBoxCV.css';
+import './cv.css';
+import { translate } from '../utils';
+import { cvBg } from './cv-bg';
+import { cvDe } from './cv-de';
+import { cvEn } from './cv-en';
 
-export default class TextBox extends Component {
+export default class Cv extends Component {
 	render() {
+		const {language} = this.props;
+		const cv = translate(language, cvBg, cvDe, cvEn);
+
 		return (
 			<main>
 				<section className="text-box-cv-container">
 					<article className="text-box-cv-text" title="Lebenslauf">
-						<h2>Mein Lebenslauf</h2>
-						<p>Hier können Sie mein Lebenslauf in PDF Format herunterladen</p>
+						<h2>{cv.title}</h2>
+						<p>{cv.text}</p>
 						<p className='text-box-cv-icon'>
 							<a href={DownloadFile} className='text-box-cv-icon-link' download>
 								<img src={DownloadIcon} alt="Lebenslauf herunterladen" />

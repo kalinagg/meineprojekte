@@ -7,13 +7,12 @@ import bavarianCostumes from './images/bavarian-costumes.png'
 import breadCourse from './images/bread-course.png'
 import calendar from './images/calendar.jpg'
 import spaceOfRoss from './images/space-of-ross.png'
-// import casino from './images/casino.png'
-// import voicecom from './images/voicecom.png'
-// import music4you from './images/music-4-you.png'
-// import soccer from './images/soccer-live-scores.png'
-// import { useSyncExternalStore } from 'react'
+import casino from './images/casino.png'
+import voicecom from './images/voicecom.png'
+import music4you from './images/music-4-you.png'
+import soccer from './images/soccer-live-scores.png'
 
-export const projects = [
+export const projectsDe = [
     {
         id: 0,
         image: ucoreSystes,
@@ -21,7 +20,7 @@ export const projects = [
         subtitle: 'Mobile und Desktop App',
         year: '2024',
         link: 'https://www.ucore-systems.com',
-        text: 'Eine assisted living App gestaltet und konzipiert in Figma für <a href="https://www.ucore-systems.com" target="blank">uCORE Systems GmbH</a>'
+        text: 'Eine assisted living App konzipiert und gestaltet in Figma für <a href="https://www.ucore-systems.com" target="blank">uCORE Systems GmbH</a>'
     },
     {
         id: 1,
@@ -95,40 +94,40 @@ export const projects = [
         link: spaceOfRoss,
         text: 'Gestaltung in Photoshop'
     },
-    // {
-    //     id: 9,
-    //     image: casino,
-    //     title: 'Aces Up Casino Parties',
-    //     subtitle: 'Webseite, Mochanin Corp.',
-    //     year: '2008',
-    //     link: casino,
-    //     text: 'Gestaltung in Photoshop'
-    // },
-    // {
-    //     id: 10,
-    //     image: voicecom,
-    //     title: 'Voicecom',
-    //     subtitle: 'Webseite, Voicecom AG',
-    //     year: '2007',
-    //     link: voicecom,
-    //     text: 'Gestaltung in Photoshop. Enwicklung der HTML Vorlagen in Dreamweaver'
-    // },
-    // {
-    //     id: 11,
-    //     image: music4you,
-    //     title: 'Music4you',
-    //     subtitle: 'Animiertes Werbebanner, Voicecom AG',
-    //     year: '2007',
-    //     link: music4you,
-    //     text: 'Gestaltung in Flash'
-    // },
-    // {
-    //     id: 12,
-    //     image: soccer,
-    //     title: 'Soccer',
-    //     subtitle: 'Animiertes Werbebanner, Voicecom AG',
-    //     year: '2007',
-    //     link: soccer,
-    //     text: 'Gestaltung in Flash'
-    // }
+    {
+        id: 9,
+        image: casino,
+        title: 'Aces Up Casino Parties',
+        subtitle: 'Webseite, Mochanin Corp.',
+        year: '2008',
+        link: casino,
+        text: 'Gestaltung in Photoshop'
+    },
+    {
+        id: 10,
+        image: voicecom,
+        title: 'Voicecom',
+        subtitle: 'Webseite, Voicecom AG',
+        year: '2007',
+        link: voicecom,
+        text: 'Gestaltung in Photoshop. Enwicklung der HTML Vorlagen in Dreamweaver'
+    },
+    {
+        id: 11,
+        image: music4you,
+        title: 'Music4you',
+        subtitle: 'Animiertes Werbebanner, Voicecom AG',
+        year: '2007',
+        link: music4you,
+        text: 'Gestaltung in Flash'
+    },
+    {
+        id: 12,
+        image: soccer,
+        title: 'Soccer',
+        subtitle: 'Animiertes Werbebanner, Voicecom AG',
+        year: '2007',
+        link: soccer,
+        text: 'Gestaltung in Flash'
+    }
 ]

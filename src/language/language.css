@@ -1,0 +1,13 @@
+.language-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 8px;
+}
+
+.language-container a {
+    padding: 8px;
+}
+
+.language-container .active {		
+	background: url('./images/active.svg') no-repeat top;
+}
