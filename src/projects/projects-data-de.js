@@ -1,3 +1,4 @@
+import eatSmart from './images/eat-smart.png'
 import ucoreSystes from './images/ucore-systems.png'
 import livingHome from './images/living-home.png'
 import bestBefore from './images/best-before.png'
@@ -15,6 +16,15 @@ import soccer from './images/soccer-live-scores.png'
 export const projectsDe = [
     {
         id: 0,
+        image: eatSmart,
+        title: 'Eat Smart',
+        subtitle: 'Mobile und Desktop App',
+        year: '2024',
+        link: 'https://www.figma.com/design/UboIg60chY7FEOXJHdfaVd/Eat-Smart?node-id=0-1&t=z96JwZMj3bwCnPUh-1',
+        text: 'Eine App für smarates Essen mit <a href="https://www.figma.com/design/UboIg60chY7FEOXJHdfaVd/Eat-Smart?node-id=0-1&t=z96JwZMj3bwCnPUh-1" target="blank">Konzept und Layouts in Figma</a>'
+    },
+    {
+        id: 1,
         image: ucoreSystes,
         title: 'Assisted Living',
         subtitle: 'Mobile und Desktop App',
@@ -23,7 +33,7 @@ export const projectsDe = [
         text: 'Eine assisted living App konzipiert und gestaltet in Figma für <a href="https://www.ucore-systems.com" target="blank">uCORE Systems GmbH</a>'
     },
     {
-        id: 1,
+        id: 2,
         image: livingHome,
         title: 'Living Home',
         subtitle: 'Mobile App',
@@ -32,7 +42,7 @@ export const projectsDe = [
         text: 'Eine Smart Home App mit <a href="https://www.figma.com/file/1OoJtGnwonubyYQ8UpMcMK/Living-home?type=design&node-id=0%3A1&mode=design&t=BbU8GI8H7lOCUs5L-1" target="blank">Layouts in Figma</a> und <a href="https://www.figma.com/file/A5G35XUW0iDKr9zn7YSGnA/Kalina-Georgieva---Projektkonzept?type=whiteboard&node-id=0%3A1&t=ZMbKuLy7k4TtlHGA-1" target="blank">Design Konzept in FigJam</a>'
     },
     {
-        id: 2,
+        id: 3,
         image: bestBefore,
         title: 'Best Before',
         subtitle: 'Mobile App',
@@ -41,7 +51,7 @@ export const projectsDe = [
         text: '<a href="https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0" target="blank">Layouts in Figma</a> für eine App zum Verfolgen von Mindesthaltbarkeitsdaten'
     },
     {
-        id: 3,
+        id: 4,
         image: squarePics,
         title: 'Square Pics',
         subtitle: 'Mobile App',
@@ -50,7 +60,7 @@ export const projectsDe = [
         text: '<a href="https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1" target="blank">Layouts in Figma</a> für eine App, die PDF Photokalender erstellt'
     },
     {
-        id: 4,
+        id: 5,
         image: apetitniNe6ta,
         title: 'apetitni.ne6ta',
         subtitle: 'Webseite',
@@ -59,7 +69,7 @@ export const projectsDe = [
         text: 'Umgesetzt mit React, Typescript und Material UI. Checken Sie die <a href="https://apetitni-ne6ta.vercel.app" target="_blank">Webseite</a> oder den Code auf <a href="https://github.com/kalinagg/apetitni.ne6ta" target="blank">Github</a>.'
     },
     {
-        id: 5,
+        id: 6,
         image: calendar,
         title: 'Photokalender',
         year: '2018',
@@ -68,7 +78,7 @@ export const projectsDe = [
         text: 'Gestaltung in Photoshop'
     },
     {
-        id: 6,
+        id: 7,
         image: breadCourse,
         title: 'Brotbackkurs-Gutschein',
         subtitle: 'Print',
@@ -77,7 +87,7 @@ export const projectsDe = [
         text: 'Gestaltung in Photoshop'
     },
     {
-        id: 7,
+        id: 8,
         image: bavarianCostumes,
         title: 'Trachtenmode',
         subtitle: 'Online Shop',
@@ -86,7 +96,7 @@ export const projectsDe = [
         text: 'Gestaltung in Photoshop'
     },
     {
-        id: 8,
+        id: 9,
         image: spaceOfRoss,
         title: 'The Space of Ross',
         subtitle: 'Webseite',
@@ -95,7 +105,7 @@ export const projectsDe = [
         text: 'Gestaltung in Photoshop'
     },
     {
-        id: 9,
+        id: 10,
         image: casino,
         title: 'Aces Up Casino Parties',
         subtitle: 'Webseite, Mochanin Corp.',
@@ -104,7 +114,7 @@ export const projectsDe = [
         text: 'Gestaltung in Photoshop'
     },
     {
-        id: 10,
+        id: 11,
         image: voicecom,
         title: 'Voicecom',
         subtitle: 'Webseite, Voicecom AG',
@@ -113,7 +123,7 @@ export const projectsDe = [
         text: 'Gestaltung in Photoshop. Enwicklung der HTML Vorlagen in Dreamweaver'
     },
     {
-        id: 11,
+        id: 12,
         image: music4you,
         title: 'Music4you',
         subtitle: 'Animiertes Werbebanner, Voicecom AG',
@@ -122,7 +132,7 @@ export const projectsDe = [
         text: 'Gestaltung in Flash'
     },
     {
-        id: 12,
+        id: 13,
         image: soccer,
         title: 'Soccer',
         subtitle: 'Animiertes Werbebanner, Voicecom AG',
