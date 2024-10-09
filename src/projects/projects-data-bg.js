@@ -1,3 +1,4 @@
+import eatSmart from './images/eat-smart.png'
 import ucoreSystes from './images/ucore-systems.png'
 import livingHome from './images/living-home.png'
 import bestBefore from './images/best-before.png'
@@ -14,7 +15,14 @@ import soccer from './images/soccer-live-scores.png'
 
 export const projectsBg = [
     {
-        id: 0,
+        image: eatSmart,
+        title: 'Eat Smart',
+        subtitle: 'Мобилна и десктоп апликация',
+        year: '2024',
+        link: 'https://www.figma.com/design/UboIg60chY7FEOXJHdfaVd/Eat-Smart?node-id=0-1&t=z96JwZMj3bwCnPUh-1',
+        text: 'Приложение за интелигентно хранене с <a href="https://www.figma.com/design/UboIg60chY7FEOXJHdfaVd/Eat-Smart?node-id=0-1&t=z96JwZMj3bwCnPUh-1" target="blank">дизайн и концепция във Figma </a>'
+    },
+    {
         image: ucoreSystes,
         title: 'Assisted Living',
         subtitle: 'Мобилна и десктоп апликация',
@@ -23,7 +31,6 @@ export const projectsBg = [
         text: 'Приложение за подпомагано живеене, конципирано и проектирано във Figma за <a href="https://www.ucore-systems.com" target="blank">uCORE Systems GmbH</a>'
     },
     {
-        id: 1,
         image: livingHome,
         title: 'Living Home',
         subtitle: 'Мобилна апликация',
@@ -32,7 +39,6 @@ export const projectsBg = [
         text: 'Приложение за интелигентен дом с <a href="https://www.figma.com/file/1OoJtGnwonubyYQ8UpMcMK/Living-home?type=design&node-id=0%3A1&mode=design&t=BbU8GI8H7lOCUs5L-1" target="blank">дизайн във Figma</a> и <a href="https://www.figma.com/file/A5G35XUW0iDKr9zn7YSGnA/Kalina-Georgieva---Projektkonzept?type=whiteboard&node-id=0%3A1&t=ZMbKuLy7k4TtlHGA-1" target="blank">дизайн концепция във FigJam</a>'
     },
     {
-        id: 2,
         image: bestBefore,
         title: 'Best Before',
         subtitle: 'Мобилна апликация',
@@ -41,7 +47,6 @@ export const projectsBg = [
         text: '<a href="https://www.figma.com/file/8xOnZBaoKKlb08ElL8FJvf/BestBefore?node-id=0%3A1&t=1f8loummLFzQ49jy-0" target="blank">Дизайн във Figma</a> на апликация за проследяване на дати на годност'
     },
     {
-        id: 3,
         image: squarePics,
         title: 'Square Pics',
         subtitle: 'Мобилна апликация',
@@ -50,7 +55,6 @@ export const projectsBg = [
         text: '<a href="https://www.figma.com/file/y1EsIn7mQ2QkK1kbbkcUfl/Square-Pics?node-id=0%3A1" target="blank">Дизайн във Figma</a> на апликация експортираща фотокалендар в PDF формат'
     },
     {
-        id: 4,
         image: apetitniNe6ta,
         title: 'apetitni.ne6ta',
         subtitle: 'Уеб страница',
@@ -59,7 +63,6 @@ export const projectsBg = [
         text: 'Разработено с React, Typescript и Material UI. Вижте <a href="https://apetitni-ne6ta.vercel.app" target="_blank">уебстраницата</a> или сорскода на <a href="https://github.com/kalinagg/apetitni.ne6ta" target="blank">Github</a>.'
     },
     {
-        id: 5,
         image: calendar,
         title: 'Фотокалендар',
         year: '2018',
@@ -68,7 +71,6 @@ export const projectsBg = [
         text: 'Оформление в Photoshop'
     },
     {
-        id: 6,
         image: breadCourse,
         title: 'Купон за курс по печене на хляб',
         subtitle: 'Принт',
@@ -77,7 +79,6 @@ export const projectsBg = [
         text: 'Оформление в Photoshop'
     },
     {
-        id: 7,
         image: bavarianCostumes,
         title: 'Традиционна баварска мода',
         subtitle: 'Онлайн магазин',
@@ -86,7 +87,6 @@ export const projectsBg = [
         text: 'Оформление в Photoshop'
     },
     {
-        id: 8,
         image: spaceOfRoss,
         title: 'The Space of Ross',
         subtitle: 'Уебстраница',
@@ -95,7 +95,6 @@ export const projectsBg = [
         text: 'Оформление в Photoshop'
     },
     {
-        id: 9,
         image: casino,
         title: 'Aces Up Casino Parties',
         subtitle: 'Уебстраница за Mochanin Corp.',
@@ -104,7 +103,6 @@ export const projectsBg = [
         text: 'Оформление в Photoshop'
     },
     {
-        id: 10,
         image: voicecom,
         title: 'Voicecom',
         subtitle: 'Уебстраница за Voicecom AG',
@@ -113,7 +111,6 @@ export const projectsBg = [
         text: 'Оформление в Photoshop. Разработка на HTML темплейти в Dreamweaver'
     },
     {
-        id: 11,
         image: music4you,
         title: 'Music4you',
         subtitle: 'Анимиран рекламен банер за Voicecom AG',
@@ -122,7 +119,6 @@ export const projectsBg = [
         text: 'Оформление в Flash'
     },
     {
-        id: 12,
         image: soccer,
         title: 'Soccer',
         subtitle: 'Анимиран рекламен банер за Voicecom AG',

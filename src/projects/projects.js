@@ -13,8 +13,8 @@ export default class TextBoxProjects extends Component {
         return (
             <main>
                 <section>
-                    {projects.map(project => (
-                        <article className="projects-article" key={project.id}>
+                    {projects.map((project, id) => (
+                        <article className="projects-article" key={id}>
                             <h2 className="projects-h2">{project.title}</h2>
                             <h3>{project.subtitle} — {project.year}</h3>
                             <p dangerouslySetInnerHTML={{__html: project.text}} />
