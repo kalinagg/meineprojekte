@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import me from './images/me.jpg'
+import me from './images/me.png'
 import { aboutBg } from './about-bg';
 import { aboutDe } from './about-de';
 import { aboutEn } from './about-en';
@@ -22,7 +22,7 @@ export default class About extends Component {
 						<p className="last">{about.text4}</p>
 					</article>
 					<article className="info-text info-img-container">
-						<img src={me} className="info-img" alt="my photo" />
+						<img src={me} className="info-img" alt="my photo" width={250} />
 					</article>	
 				</section>
 			</main>
