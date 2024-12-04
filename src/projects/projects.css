@@ -5,6 +5,14 @@
 	margin-bottom: 2px;
 }
 
+.projects-article:first-child {
+	border-radius: 16px 16px 0 0;
+}
+
+.projects-article:last-child {
+	border-radius: 0 0 16px 16px;
+}
+
 .projects-article h3 {
 	margin: 0 0 4px;
 	font-weight: normal;

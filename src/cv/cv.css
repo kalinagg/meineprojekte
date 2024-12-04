@@ -1,14 +1,13 @@
 .text-box-cv-container {
 	text-align: center;
-
 }
 
 .text-box-cv-text {
 	display: inline-block;
-	background: #eee;
 	padding: 35px 25px;
 	text-align: left;
-	border-radius: 2px;
+	background: #eee;
+	border-radius: 16px;
 }
 
 .text-box-cv-icon {

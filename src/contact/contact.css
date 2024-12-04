@@ -1,14 +1,13 @@
 .contact-container {	
 	text-align: center;
-
 }
 
 .contact-text {	
 	display: inline-block;
+	border-radius: 16px;
 	background: #eee;
 	padding: 35px 25px;	
 	text-align: left;
-	border-radius: 2px;
 }
 
 .contact-text a {

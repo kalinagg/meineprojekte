@@ -1,18 +1,24 @@
 .info-container {	   
 	display: table;
 	width: 100%;
+	background: #eee;
+	border-radius: 16px;
 }
  
 .info-text {
 	display: table-cell;
-	vertical-align: top;
-	background: #eee;
+	vertical-align: middle;
 	padding: 35px 25px;
 	border-radius: 2px;
 }
 
 .last {
 	margin-bottom: 0;
+}
+
+.info-img {
+	border: 4px solid #ddd;
+	border-radius: 125px;
 }
 
 @media screen and (max-width: 800px) {
