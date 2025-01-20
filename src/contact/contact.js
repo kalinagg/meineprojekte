@@ -20,7 +20,7 @@ export default class Contact extends Component {
                         <p>{contact.text5}</p>
                         <p>{contact.text6}</p>
                         <p>{contact.text7}<a href="https://de.linkedin.com/in/kalina-georgieva-2a365744" target="_blank" rel="noopener noreferrer">{contact.text8}</a></p>
-                        <p>{contact.text9} <a href="https://meineprojekte.vercel.app">{contact.text10}</a></p>
+                        <p>{contact.text9} <a href={contact.link}>{contact.text10}</a></p>
                     </article>
                 </section>
             </main>

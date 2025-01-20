@@ -10,5 +10,6 @@ export const contactBg = {
     text7: 'LinkedIn: ',
     text8: 'Калина на LinkedIn',
     text9: 'Уеб: ',
-    text10: 'Kalina.Style'
+    text10: 'Kalina.Style',
+    link: 'https://kalina.style/bg'
 }

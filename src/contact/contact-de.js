@@ -10,5 +10,6 @@ export const contactDe = {
     text7: 'LinkedIn: ',
     text8: 'Kalina auf LinkedIn',
     text9: 'Web: ',
-    text10: 'Kalina.Style'
+    text10: 'Kalina.Style',
+    link: 'https://kalina.style'
 }
