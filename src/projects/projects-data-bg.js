@@ -77,53 +77,53 @@ export const projectsBg = [
         year: '2016',
         link: breadCourse,
         text: 'Оформление в Photoshop'
-    },
-    {
-        image: bavarianCostumes,
-        title: 'Традиционна баварска мода',
-        subtitle: 'Онлайн магазин',
-        year: '2013',
-        link: bavarianCostumes,
-        text: 'Оформление в Photoshop'
-    },
-    {
-        image: spaceOfRoss,
-        title: 'The Space of Ross',
-        subtitle: 'Уебстраница',
-        year: '2013',
-        link: spaceOfRoss,
-        text: 'Оформление в Photoshop'
-    },
-    {
-        image: casino,
-        title: 'Aces Up Casino Parties',
-        subtitle: 'Уебстраница за Mochanin Corp.',
-        year: '2008',
-        link: casino,
-        text: 'Оформление в Photoshop'
-    },
-    {
-        image: voicecom,
-        title: 'Voicecom',
-        subtitle: 'Уебстраница за Voicecom AG',
-        year: '2007',
-        link: voicecom,
-        text: 'Оформление в Photoshop. Разработка на HTML темплейти в Dreamweaver'
-    },
-    {
-        image: music4you,
-        title: 'Music4you',
-        subtitle: 'Анимиран рекламен банер за Voicecom AG',
-        year: '2007',
-        link: music4you,
-        text: 'Оформление в Flash'
-    },
-    {
-        image: soccer,
-        title: 'Soccer',
-        subtitle: 'Анимиран рекламен банер за Voicecom AG',
-        year: '2007',
-        link: soccer,
-        text: 'Оформление в Flash'
     }
+    // {
+    //     image: bavarianCostumes,
+    //     title: 'Традиционна баварска мода',
+    //     subtitle: 'Онлайн магазин',
+    //     year: '2013',
+    //     link: bavarianCostumes,
+    //     text: 'Оформление в Photoshop'
+    // },
+    // {
+    //     image: spaceOfRoss,
+    //     title: 'The Space of Ross',
+    //     subtitle: 'Уебстраница',
+    //     year: '2013',
+    //     link: spaceOfRoss,
+    //     text: 'Оформление в Photoshop'
+    // },
+    // {
+    //     image: casino,
+    //     title: 'Aces Up Casino Parties',
+    //     subtitle: 'Уебстраница за Mochanin Corp.',
+    //     year: '2008',
+    //     link: casino,
+    //     text: 'Оформление в Photoshop'
+    // },
+    // {
+    //     image: voicecom,
+    //     title: 'Voicecom',
+    //     subtitle: 'Уебстраница за Voicecom AG',
+    //     year: '2007',
+    //     link: voicecom,
+    //     text: 'Оформление в Photoshop. Разработка на HTML темплейти в Dreamweaver'
+    // },
+    // {
+    //     image: music4you,
+    //     title: 'Music4you',
+    //     subtitle: 'Анимиран рекламен банер за Voicecom AG',
+    //     year: '2007',
+    //     link: music4you,
+    //     text: 'Оформление в Flash'
+    // },
+    // {
+    //     image: soccer,
+    //     title: 'Soccer',
+    //     subtitle: 'Анимиран рекламен банер за Voicecom AG',
+    //     year: '2007',
+    //     link: soccer,
+    //     text: 'Оформление в Flash'
+    // }
 ]

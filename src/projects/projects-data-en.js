@@ -77,53 +77,53 @@ export const projectsEn = [
         year: 'Year 2016',
         link: breadCourse,
         text: 'Design in Photoshop'
-    },
-    {
-        image: bavarianCostumes,
-        title: 'Traditional bavarian fashion',
-        subtitle: 'Online Shop',
-        year: 'Year 2013',
-        link: bavarianCostumes,
-        text: 'Design in Photoshop'
-    },
-    {
-        image: spaceOfRoss,
-        title: 'The Space of Ross',
-        subtitle: 'Web page',
-        year: 'Year 2013',
-        link: spaceOfRoss,
-        text: 'Design in Photoshop'
-    },
-    {
-        image: casino,
-        title: 'Aces Up Casino Parties',
-        subtitle: 'Web page for Mochanin Corp.',
-        year: 'Year 2008',
-        link: casino,
-        text: 'Design in Photoshop'
-    },
-    {
-        image: voicecom,
-        title: 'Voicecom',
-        subtitle: 'Web page for Voicecom PLC',
-        year: 'Year 2007',
-        link: voicecom,
-        text: 'Design in Photoshop. Development of HTML templates in Dreamweaver'
-    },
-    {
-        image: music4you,
-        title: 'Music4you',
-        subtitle: 'Animated advertising banner for Voicecom PLC',
-        year: 'Year 2007',
-        link: music4you,
-        text: 'Design in Flash'
-    },
-    {
-        image: soccer,
-        title: 'Soccer',
-        subtitle: 'Animated advertising banner for Voicecom PLC',
-        year: 'Year 2007',
-        link: soccer,
-        text: 'Design in Flash'
     }
+    // {
+    //     image: bavarianCostumes,
+    //     title: 'Traditional bavarian fashion',
+    //     subtitle: 'Online Shop',
+    //     year: 'Year 2013',
+    //     link: bavarianCostumes,
+    //     text: 'Design in Photoshop'
+    // },
+    // {
+    //     image: spaceOfRoss,
+    //     title: 'The Space of Ross',
+    //     subtitle: 'Web page',
+    //     year: 'Year 2013',
+    //     link: spaceOfRoss,
+    //     text: 'Design in Photoshop'
+    // },
+    // {
+    //     image: casino,
+    //     title: 'Aces Up Casino Parties',
+    //     subtitle: 'Web page for Mochanin Corp.',
+    //     year: 'Year 2008',
+    //     link: casino,
+    //     text: 'Design in Photoshop'
+    // },
+    // {
+    //     image: voicecom,
+    //     title: 'Voicecom',
+    //     subtitle: 'Web page for Voicecom PLC',
+    //     year: 'Year 2007',
+    //     link: voicecom,
+    //     text: 'Design in Photoshop. Development of HTML templates in Dreamweaver'
+    // },
+    // {
+    //     image: music4you,
+    //     title: 'Music4you',
+    //     subtitle: 'Animated advertising banner for Voicecom PLC',
+    //     year: 'Year 2007',
+    //     link: music4you,
+    //     text: 'Design in Flash'
+    // },
+    // {
+    //     image: soccer,
+    //     title: 'Soccer',
+    //     subtitle: 'Animated advertising banner for Voicecom PLC',
+    //     year: 'Year 2007',
+    //     link: soccer,
+    //     text: 'Design in Flash'
+    // }
 ]

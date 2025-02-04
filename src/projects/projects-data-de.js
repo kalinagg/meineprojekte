@@ -77,53 +77,53 @@ export const projectsDe = [
         year: '2016',
         link: breadCourse,
         text: 'Gestaltung in Photoshop'
-    },
-    {
-        image: bavarianCostumes,
-        title: 'Trachtenmode',
-        subtitle: 'Online Shop',
-        year: '2013',
-        link: bavarianCostumes,
-        text: 'Gestaltung in Photoshop'
-    },
-    {
-        image: spaceOfRoss,
-        title: 'The Space of Ross',
-        subtitle: 'Webseite',
-        year: '2013',
-        link: spaceOfRoss,
-        text: 'Gestaltung in Photoshop'
-    },
-    {
-        image: casino,
-        title: 'Aces Up Casino Parties',
-        subtitle: 'Webseite, Mochanin Corp.',
-        year: '2008',
-        link: casino,
-        text: 'Gestaltung in Photoshop'
-    },
-    {
-        image: voicecom,
-        title: 'Voicecom',
-        subtitle: 'Webseite, Voicecom AG',
-        year: '2007',
-        link: voicecom,
-        text: 'Gestaltung in Photoshop. Enwicklung der HTML Vorlagen in Dreamweaver'
-    },
-    {
-        image: music4you,
-        title: 'Music4you',
-        subtitle: 'Animiertes Werbebanner, Voicecom AG',
-        year: '2007',
-        link: music4you,
-        text: 'Gestaltung in Flash'
-    },
-    {
-        image: soccer,
-        title: 'Soccer',
-        subtitle: 'Animiertes Werbebanner, Voicecom AG',
-        year: '2007',
-        link: soccer,
-        text: 'Gestaltung in Flash'
     }
+    // {
+    //     image: bavarianCostumes,
+    //     title: 'Trachtenmode',
+    //     subtitle: 'Online Shop',
+    //     year: '2013',
+    //     link: bavarianCostumes,
+    //     text: 'Gestaltung in Photoshop'
+    // },
+    // {
+    //     image: spaceOfRoss,
+    //     title: 'The Space of Ross',
+    //     subtitle: 'Webseite',
+    //     year: '2013',
+    //     link: spaceOfRoss,
+    //     text: 'Gestaltung in Photoshop'
+    // },
+    // {
+    //     image: casino,
+    //     title: 'Aces Up Casino Parties',
+    //     subtitle: 'Webseite, Mochanin Corp.',
+    //     year: '2008',
+    //     link: casino,
+    //     text: 'Gestaltung in Photoshop'
+    // },
+    // {
+    //     image: voicecom,
+    //     title: 'Voicecom',
+    //     subtitle: 'Webseite, Voicecom AG',
+    //     year: '2007',
+    //     link: voicecom,
+    //     text: 'Gestaltung in Photoshop. Enwicklung der HTML Vorlagen in Dreamweaver'
+    // },
+    // {
+    //     image: music4you,
+    //     title: 'Music4you',
+    //     subtitle: 'Animiertes Werbebanner, Voicecom AG',
+    //     year: '2007',
+    //     link: music4you,
+    //     text: 'Gestaltung in Flash'
+    // },
+    // {
+    //     image: soccer,
+    //     title: 'Soccer',
+    //     subtitle: 'Animiertes Werbebanner, Voicecom AG',
+    //     year: '2007',
+    //     link: soccer,
+    //     text: 'Gestaltung in Flash'
+    // }
 ]
